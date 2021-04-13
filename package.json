@@ -1,0 +1,18 @@
+{
+  "name": "plantuml-diagram",
+  "version": "0.0.1",
+  "description": "plantuml-diagram",
+  "main": "index.js",
+  "author": "jian_liu",
+  "license": "MIT",
+  "scripts": {
+    "autoGen": "export PROJECT_PATH=./puml && node ./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "node-plantuml": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  }
+}

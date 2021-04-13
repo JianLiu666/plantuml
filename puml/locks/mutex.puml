@@ -1,0 +1,53 @@
+@startuml mutex_lock
+
+skinparam ParticipantPadding 80
+skinparam BackgroundColor #EFF1F3
+skinparam Shadowing false
+skinparam sequence {
+    ParticipantBorderColor #777777
+    ParticipantFontColor #FFFFFF
+    LifeLineBorderColor #777777
+    ArrowColor #666666
+    ArrowFontColor #333333
+}
+
+participant "ThreadA" as ta     #D98032
+participant "ThreadB" as tb     #D98032
+participant "Kernel"  as kernel #696773
+
+autonumber "0."
+
+ta -> kernel : attempts to get lock
+activate ta #FCD766
+activate kernel #83828C
+
+kernel -> ta : locked successful
+deactivate kernel
+
+ta -> ta : do something
+
+tb -> kernel : attempts to get lock
+activate tb #FCD766
+activate kernel #83828C
+
+kernel -> tb : failed to get lock
+deactivate kernel
+
+tb -> tb : sleep itself
+activate tb #f19b97
+
+ta -> kernel : unlock
+deactivate ta
+activate kernel #83828C
+
+kernel -> tb : wake up thread and get lock
+deactivate kernel
+deactivate tb
+
+tb -> tb : do something
+
+
+tb -> kernel : unlock
+deactivate tb
+
+@enduml
