@@ -41,9 +41,12 @@ end
 
 ta -> kernel : unlock
 deactivate ta
+
+tb -> kernel : attempts to get lock
 activate kernel #83828C
 
 kernel -> tb : locked successful
+
 deactivate kernel
 
 tb -> tb : do something
