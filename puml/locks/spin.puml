@@ -1,4 +1,4 @@
-@startuml mutex_lock
+@startuml spin_lock
 
 skinparam ParticipantPadding 80
 skinparam BackgroundColor #EFF1F3

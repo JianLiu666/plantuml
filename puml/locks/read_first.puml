@@ -1,0 +1,65 @@
+@startuml reader_first_writer_lock
+
+skinparam ParticipantPadding 80
+skinparam BackgroundColor #EFF1F3
+skinparam Shadowing false
+skinparam sequence {
+    ParticipantBorderColor #777777
+    ParticipantFontColor #FFFFFF
+    LifeLineBorderColor #777777
+    ArrowColor #666666
+    ArrowFontColor #333333
+}
+
+participant "ReaderA" as ra    #D98032
+participant "WritterB" as wb    #D98032
+participant "ReaderC" as rc     #D98032
+participant "Kernel"  as kernel #696773
+
+autonumber "0."
+
+ra -> kernel : attempts to get lock
+activate ra #FCD766
+activate kernel #83828C
+
+kernel -> ra : locked successful
+deactivate kernel
+
+ra -> ra : read data
+
+wb -> kernel : attempts to get lock
+activate wb #FCD766
+activate kernel #83828C
+
+kernel -> wb : failed to get lock
+deactivate kernel
+
+wb -> wb : sleep itself
+activate wb #F19B97
+
+rc -> kernel : attempts to get lock
+activate rc #FCD766
+activate kernel #83828C
+
+kernel -> rc : locked successful
+deactivate kernel
+
+ra -> kernel : unlock
+deactivate ra
+
+rc -> rc : read data
+
+rc -> kernel : unlock
+deactivate rc
+activate kernel #83828C
+
+kernel -> wb : wake up thread and get lock
+deactivate kernel
+deactivate wb
+
+wb -> wb : update data
+
+wb -> kernel : unlock
+deactivate wb
+
+@enduml

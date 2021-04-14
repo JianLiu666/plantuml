@@ -34,7 +34,7 @@ kernel -> tb : failed to get lock
 deactivate kernel
 
 tb -> tb : sleep itself
-activate tb #f19b97
+activate tb #F19B97
 
 ta -> kernel : unlock
 deactivate ta
