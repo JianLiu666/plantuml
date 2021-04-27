@@ -1,0 +1,48 @@
+@startuml acknowledgement
+
+skinparam ParticipantPadding 80
+skinparam BackgroundColor #EFF1F3
+skinparam Shadowing false
+skinparam sequence {
+    ParticipantBorderColor #777777
+    ParticipantFontColor #FFFFFF
+    LifeLineBorderColor #777777
+    ArrowColor #666666
+    ArrowFontColor #333333
+    NoteFontColor #333333
+}
+
+participant "Consumer\nApplication"  as con    #D98032
+participant "NATS Streaming\nServer" as server #D98032
+participant "Producer\nApplication"  as pro    #D98032
+
+autonumber "0."
+
+pro -> server : publish msg_1
+
+pro -> server : publish msg_2
+
+pro -> server : publish msg_3
+
+con -> server : subscribe with options:\n - manual ack mode\n - ack wait = 5s\n - max in flight = 2
+
+server -> con : receive msg_1
+activate con #Gray
+
+server -> con : receive msg_2
+activate con #FCD766 
+
+con -> server : ack msg_2
+deactivate con
+
+server -> con : receive msg_3
+activate con #FCD766 
+
+note over con : msg_1 & msg_3 still in flight
+
+server -> con : receive msg_1'
+activate con #FFAAAA
+
+note right of con : msg_1 isn't available unitl its Ack expires.\nserver will be re-sent until it is acknowledged.
+
+@enduml

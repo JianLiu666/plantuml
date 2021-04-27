@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="523px" preserveAspectRatio="none" style="width:748px;height:523px;background:#EFF1F3;" version="1.1" viewBox="0 0 748 523" width="748px" zoomAndPan="magnify"><defs/><g><rect fill="#808080" height="212.1738" style="stroke: #777777; stroke-width: 1.0;" width="10" x="129" y="245.4609"/><rect fill="#FCD766" height="29.3105" style="stroke: #777777; stroke-width: 1.0;" width="10" x="134" y="274.7715"/><rect fill="#FCD766" height="124.2422" style="stroke: #777777; stroke-width: 1.0;" width="10" x="134" y="333.3926"/><rect fill="#FFAAAA" height="59.6211" style="stroke: #777777; stroke-width: 1.0;" width="10" x="139" y="398.0137"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="134" x2="134" y1="50.9766" y2="466.6348"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="412" x2="412" y1="50.9766" y2="466.6348"/><line style="stroke: #777777; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="691" x2="691" y1="50.9766" y2="466.6348"/><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="92" x="88" y="3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="98.5" y="23.5352">Consumer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="95" y="40.0234">Application</text><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="92" x="88" y="465.6348"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="98.5" y="486.1699">Consumer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="95" y="502.6582">Application</text><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="125" x="350" y="3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="357" y="23.5352">NATS Streaming</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="391" y="40.0234">Server</text><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="125" x="350" y="465.6348"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="357" y="486.1699">NATS Streaming</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="391" y="502.6582">Server</text><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="92" x="645" y="3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="660" y="23.5352">Producer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="652" y="40.0234">Application</text><rect fill="#D98032" height="46.9766" style="stroke: #777777; stroke-width: 1.5;" width="92" x="645" y="465.6348"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="660" y="486.1699">Producer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="652" y="502.6582">Application</text><rect fill="#808080" height="212.1738" style="stroke: #777777; stroke-width: 1.0;" width="10" x="129" y="245.4609"/><rect fill="#FCD766" height="29.3105" style="stroke: #777777; stroke-width: 1.0;" width="10" x="134" y="274.7715"/><rect fill="#FCD766" height="124.2422" style="stroke: #777777; stroke-width: 1.0;" width="10" x="134" y="333.3926"/><rect fill="#FFAAAA" height="59.6211" style="stroke: #777777; stroke-width: 1.0;" width="10" x="139" y="398.0137"/><polygon fill="#666666" points="423.5,78.2871,413.5,82.2871,423.5,86.2871,419.5,82.2871" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="417.5" x2="690" y1="82.2871" y2="82.2871"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="429.5" y="77.5449">1.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="445.5" y="77.5449">publish msg_1</text><polygon fill="#666666" points="423.5,107.5977,413.5,111.5977,423.5,115.5977,419.5,111.5977" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="417.5" x2="690" y1="111.5977" y2="111.5977"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="429.5" y="106.8555">2.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="445.5" y="106.8555">publish msg_2</text><polygon fill="#666666" points="423.5,136.9082,413.5,140.9082,423.5,144.9082,419.5,140.9082" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="417.5" x2="690" y1="140.9082" y2="140.9082"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="429.5" y="136.166">3.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="445.5" y="136.166">publish msg_3</text><polygon fill="#666666" points="400.5,212.1504,410.5,216.1504,400.5,220.1504,404.5,216.1504" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="134" x2="406.5" y1="216.1504" y2="216.1504"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="141" y="188.4424">4.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="157" y="165.4766">subscribe with options:</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="161" y="180.7871">- manual ack mode</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="97" x="161" y="196.0977">- ack wait = 5s</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="161" y="211.4082">- max in flight = 2</text><polygon fill="#666666" points="150,241.4609,140,245.4609,150,249.4609,146,245.4609" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="144" x2="411.5" y1="245.4609" y2="245.4609"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="156" y="240.7188">5.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="172" y="240.7188">receive msg_1</text><polygon fill="#666666" points="155,270.7715,145,274.7715,155,278.7715,151,274.7715" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="149" x2="411.5" y1="274.7715" y2="274.7715"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="161" y="270.0293">6.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="177" y="270.0293">receive msg_2</text><polygon fill="#666666" points="400.5,300.082,410.5,304.082,400.5,308.082,404.5,304.082" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="139" x2="406.5" y1="304.082" y2="304.082"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="146" y="299.3398">7.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="162" y="299.3398">ack msg_2</text><polygon fill="#666666" points="155,329.3926,145,333.3926,155,337.3926,151,333.3926" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="149" x2="411.5" y1="333.3926" y2="333.3926"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="161" y="328.6504">8.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="177" y="328.6504">receive msg_3</text><path d="M32,346.3926 L32,371.3926 L236,371.3926 L236,356.3926 L226,346.3926 L32,346.3926 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M226,346.3926 L226,356.3926 L236,356.3926 L226,346.3926 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="183" x="38" y="363.9609">msg_1 &amp; msg_3 still in flight</text><polygon fill="#666666" points="160,394.0137,150,398.0137,160,402.0137,156,398.0137" style="stroke: #666666; stroke-width: 1.0;"/><line style="stroke: #666666; stroke-width: 1.0;" x1="154" x2="411.5" y1="398.0137" y2="398.0137"/><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="166" y="393.2715">9.</text><text fill="#333333" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="182" y="393.2715">receive msg_1'</text><path d="M154,411.0137 L154,451.0137 L468,451.0137 L468,421.0137 L458,411.0137 L154,411.0137 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M458,411.0137 L458,421.0137 L468,421.0137 L458,411.0137 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="267" x="160" y="428.582">msg_1 isn't available unitl its Ack expires.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="293" x="160" y="443.8926">server will be re-sent until it is acknowledged.</text><!--
+@startuml acknowledgement
+
+skinparam ParticipantPadding 80
+skinparam BackgroundColor #EFF1F3
+skinparam Shadowing false
+skinparam sequence {
+    ParticipantBorderColor #777777
+    ParticipantFontColor #FFFFFF
+    LifeLineBorderColor #777777
+    ArrowColor #666666
+    ArrowFontColor #333333
+    NoteFontColor #333333
+}
+
+participant "Consumer\nApplication"  as con    #D98032
+participant "NATS Streaming\nServer" as server #D98032
+participant "Producer\nApplication"  as pro    #D98032
+
+autonumber "0."
+
+pro -> server : publish msg_1
+
+pro -> server : publish msg_2
+
+pro -> server : publish msg_3
+
+con -> server : subscribe with options:\n - manual ack mode\n - ack wait = 5s\n - max in flight = 2
+
+server -> con : receive msg_1
+activate con #Gray
+
+server -> con : receive msg_2
+activate con #FCD766 
+
+con -> server : ack msg_2
+deactivate con
+
+server -> con : receive msg_3
+activate con #FCD766 
+
+note over con : msg_1 & msg_3 still in flight
+
+server -> con : receive msg_1'
+activate con #FFAAAA
+
+note right of con : msg_1 isn't available unitl its Ack expires.\nserver will be re-sent until it is acknowledged.
+
+@enduml
+
+PlantUML version 1.2019.06(Sat May 25 01:10:25 CST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14.0.2+12-46
+Operating System: Mac OS X
+OS Version: 10.15.6
+Default Encoding: UTF-8
+Language: zh
+Country: TW
+--></g></svg>
