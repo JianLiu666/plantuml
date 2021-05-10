@@ -1,7 +1,8 @@
-@startmindmap
+@startmindmap ddia_mindmap_ch1
 
 skinparam Shadowing false
 skinparam BackgroundColor #EFF1F3
+
 <style>
 arrow {
     LineColor #0F5E8C
