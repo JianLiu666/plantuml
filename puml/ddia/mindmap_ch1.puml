@@ -1,0 +1,111 @@
+@startmindmap
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+<style>
+arrow {
+    LineColor #0F5E8C
+}
+node {
+    Padding 6
+    Margin 0
+    RoundCorner 15
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineThickness 0.0
+}
+leafNode {
+    BackgroundColor #EFF1F3
+    FontColor #333333
+    LineThickness 0.0
+}
+.Description {
+    BackgroundColor #EFF1F3
+    FontColor #333333
+    LineThickness 0.0
+}
+</style>
+
+* DDIA Ch.1
+
+** 任務類型
+
+*** 計算密集型 (CPU-Intensive)
+*** I/O密集型 (IO-Intensive)
+*** 資料密集型 (Data-Intensive)
+
+** 資料系統 (Data System)
+
+*** 資料庫 (Database)
+*** 快取 (Cache)
+*** 搜尋索引 (Search Indexes)
+*** 串流處理 (Stream Processing)
+*** 批量處理 (Batch Processing)
+
+** 可靠性 (Reliability)
+
+*** 使系統在有限情境中，即使出現\n問題也能繼續正常工作的能力。 <<Description>>
+
+*** 比起預防錯誤，更傾向容忍錯誤。 <<Description>>
+
+*** 透過 Chaos Monkey 方法提升\n可靠性。 <<Description>>
+
+*** 硬體故障 (Hardware Faults)
+**** 增加冗余(Redundancy) 提高\n單機可靠性。
+**** 雲端平台透過彈性擴增機器變相\n提高可靠性。
+
+*** 軟體錯誤 (Software Errors)
+**** 容易產生連鎖性錯誤，導致更多\n系統相繼失效。
+**** 並非每次都能捕捉到真正的錯誤\n原因。
+**** 透過假設與大量測試保證系統的\n安全工作範圍。
+**** 程序隔離(Process Isolation)
+**** 監控並加入錯誤警告機制。
+
+*** 人為錯誤 (Human Errors)
+**** 正確且友善的使用抽象設計。
+**** 設計上適時加入解耦，讓開發者\n可以使用真實資料進行測試。
+**** 足夠的單元測試、整合測試與\n手動/自動化測試。
+**** 確保運行失敗時能夠快速回滾\n(Roll back)。
+**** 詳細且動機明確的監控機制。
+
+left
+
+** 可伸縮性 (Scalability)
+
+*** 根據業務場景決定如何擴展服務，才是\n有意義的擴展。 <<Description>>
+
+*** 描述負載 (Discribing Load)
+**** 量化生產環境的各項數據。
+**** 制定負載引數\n(Load parameter)
+
+*** 描述性能 (Discribing Performance)
+**** 提升負載並固定系統資源時\n對效能造成的影響？
+**** 提升負載並維持效能時需增\n加多少的系統資源？
+**** 決定度量標準與數值分佈。
+**** 測試方式與生產環境流程必\n須盡可能對齊。
+
+*** 對應負載的方法
+**** 垂直擴展(Vertical scaling)
+**** 水平擴展(Horizontal scaling)
+**** 因地制宜，且能與時俱進。
+
+** 可維護性 (Maintainability)
+
+*** 使產品能夠持續迭代的能力。 <<Description>>
+
+*** 可操作性 (Operability)
+**** 關愛維運，人人有責。
+**** 提供系統文件與使用範例。
+**** 提供彈性的參數設定方式。
+**** 提供自定義的監控指標(Metrics)。
+
+*** 簡單性 (Simplicity)
+**** 控管複雜度。
+**** 適度的抽象、解耦。
+**** 設計框架時也須考量團隊程度。
+
+*** 可演化性 (Evolvability)
+**** 擁抱變化。
+**** 測試驅動開發、敏捷開發與\n定時重構。
+
+@endmindmap
