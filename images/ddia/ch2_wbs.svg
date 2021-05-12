@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1308px" preserveAspectRatio="none" style="width:800px;height:1308px;background:#EFF1F3;" version="1.1" viewBox="0 0 800 1308" width="800px" zoomAndPan="magnify"><defs/><g><rect fill="#323232" height="26.1328" rx="7.5" ry="7.5" style="stroke:#323232;stroke-width:0.0;" width="226" x="266.5" y="10"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="214" x="272.5" y="27.6016">DDIA Chapter.2 - 資料模型與查詢語言</text><line style="stroke:#323232;stroke-width:1.5;" x1="379.5" x2="379.5" y1="36.1328" y2="56.1328"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="70" y1="56.1328" y2="76.1328"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="120" x="10" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="16" y="93.7344">關聯模型與文件模型</text><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="80" y1="117.332" y2="117.332"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="89" x="80" y="104.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="86" y="121.8672">NoSQL 的誕生</text><line style="stroke:#323232;stroke-width:1.5;" x1="124.5" x2="134.5" y1="145.4648" y2="145.4648"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="134.5" y="132.3984"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="140.5" y="150">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="124.5" x2="134.5" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="134.5" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="140.5" y="178.1328">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="124.5" x2="134.5" y1="201.7305" y2="201.7305"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="134.5" y="188.6641"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="140.5" y="206.2656">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="124.5" x2="124.5" y1="130.3984" y2="201.7305"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="80" y1="229.8633" y2="229.8633"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="96" x="80" y="216.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="86" y="234.3984">關聯對象不匹配</text><line style="stroke:#323232;stroke-width:1.5;" x1="128" x2="138" y1="257.9961" y2="257.9961"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="138" y="244.9297"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="144" y="262.5313">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="128" x2="138" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="138" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="144" y="290.6641">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="128" x2="138" y1="314.2617" y2="314.2617"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="138" y="301.1953"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="144" y="318.7969">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="128" x2="128" y1="242.9297" y2="314.2617"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="80" y1="342.3945" y2="342.3945"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="120" x="80" y="329.3281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="86" y="346.9297">多對一和多對多關係</text><line style="stroke:#323232;stroke-width:1.5;" x1="140" x2="150" y1="370.5273" y2="370.5273"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="150" y="357.4609"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="156" y="375.0625">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="140" x2="150" y1="398.6602" y2="398.6602"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="150" y="385.5938"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="156" y="403.1953">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="140" x2="150" y1="426.793" y2="426.793"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="150" y="413.7266"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="156" y="431.3281">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="140" x2="140" y1="355.4609" y2="426.793"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="80" y1="454.9258" y2="454.9258"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="156" x="80" y="441.8594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="86" y="459.4609">文件資料庫是否在重蹈覆徹</text><line style="stroke:#323232;stroke-width:1.5;" x1="158" x2="168" y1="483.0586" y2="483.0586"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="60" x="168" y="469.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="174" y="487.5938">網路模型</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="511.1914" y2="511.1914"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="498.125"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="515.7266">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="539.3242" y2="539.3242"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="526.2578"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="543.8594">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="567.457" y2="567.457"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="554.3906"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="571.9922">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="198" y1="496.125" y2="567.457"/><line style="stroke:#323232;stroke-width:1.5;" x1="158" x2="168" y1="595.5898" y2="595.5898"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="60" x="168" y="582.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="174" y="600.125">關係模型</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="623.7227" y2="623.7227"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="610.6563"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="628.2578">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="651.8555" y2="651.8555"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="638.7891"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="656.3906">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="208" y1="679.9883" y2="679.9883"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="208" y="666.9219"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="214" y="684.5234">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="198" x2="198" y1="608.6563" y2="679.9883"/><line style="stroke:#323232;stroke-width:1.5;" x1="158" x2="168" y1="708.1211" y2="708.1211"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="108" x="168" y="695.0547"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="174" y="712.6563">與文件資料庫相比</text><line style="stroke:#323232;stroke-width:1.5;" x1="222" x2="232" y1="736.2539" y2="736.2539"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="232" y="723.1875"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="238" y="740.7891">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="222" x2="232" y1="764.3867" y2="764.3867"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="232" y="751.3203"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="238" y="768.9219">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="222" x2="232" y1="792.5195" y2="792.5195"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="232" y="779.4531"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="238" y="797.0547">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="222" x2="222" y1="721.1875" y2="792.5195"/><line style="stroke:#323232;stroke-width:1.5;" x1="158" x2="158" y1="467.9922" y2="708.1211"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="80" y1="827.7188" y2="827.7188"/><rect fill="#D3548A" height="40.2656" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="144" x="80" y="807.5859"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="86" y="825.1875">關聯資料庫與文件資料庫</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="86" y="839.3203">在今日的對比</text><line style="stroke:#323232;stroke-width:1.5;" x1="152" x2="162" y1="862.918" y2="862.918"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="132" x="162" y="849.8516"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="168" y="867.4531">誰更有助於簡化程式碼</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="891.0508" y2="891.0508"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="238" y="877.9844"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="244" y="895.5859">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="919.1836" y2="919.1836"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="238" y="906.1172"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="244" y="923.7188">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="947.3164" y2="947.3164"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="238" y="934.25"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="244" y="951.8516">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="228" y1="875.9844" y2="947.3164"/><line style="stroke:#323232;stroke-width:1.5;" x1="152" x2="162" y1="975.4492" y2="975.4492"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="144" x="162" y="962.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="168" y="979.9844">文件模型中的架構靈活性</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1003.582" y2="1003.582"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="990.5156"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1008.1172">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1031.7148" y2="1031.7148"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="1018.6484"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1036.25">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1059.8477" y2="1059.8477"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="1046.7813"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1064.3828">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="234" y1="988.5156" y2="1059.8477"/><line style="stroke:#323232;stroke-width:1.5;" x1="152" x2="162" y1="1087.9805" y2="1087.9805"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="108" x="162" y="1074.9141"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="168" y="1092.5156">查詢的資料局部性</text><line style="stroke:#323232;stroke-width:1.5;" x1="216" x2="226" y1="1116.1133" y2="1116.1133"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="226" y="1103.0469"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="232" y="1120.6484">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="216" x2="226" y1="1144.2461" y2="1144.2461"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="226" y="1131.1797"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="232" y="1148.7813">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="216" x2="226" y1="1172.3789" y2="1172.3789"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="226" y="1159.3125"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="232" y="1176.9141">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="216" x2="216" y1="1101.0469" y2="1172.3789"/><line style="stroke:#323232;stroke-width:1.5;" x1="152" x2="162" y1="1200.5117" y2="1200.5117"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="144" x="162" y="1187.4453"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="168" y="1205.0469">文件和關聯資料庫的融合</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1228.6445" y2="1228.6445"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="1215.5781"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1233.1797">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1256.7773" y2="1256.7773"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="1243.7109"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1261.3125">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="244" y1="1284.9102" y2="1284.9102"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="244" y="1271.8438"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="250" y="1289.4453">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="234" x2="234" y1="1213.5781" y2="1284.9102"/><line style="stroke:#323232;stroke-width:1.5;" x1="152" x2="152" y1="847.8516" y2="1200.5117"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="70" y1="102.2656" y2="827.7188"/><line style="stroke:#323232;stroke-width:1.5;" x1="368" x2="368" y1="56.1328" y2="76.1328"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="84" x="326" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="332" y="93.7344">資料查詢語言</text><line style="stroke:#323232;stroke-width:1.5;" x1="368" x2="378" y1="117.332" y2="117.332"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="125" x="378" y="104.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="384" y="121.8672">Web 上的聲明式查詢</text><line style="stroke:#323232;stroke-width:1.5;" x1="440.5" x2="450.5" y1="145.4648" y2="145.4648"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="450.5" y="132.3984"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="456.5" y="150">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="440.5" x2="450.5" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="450.5" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="456.5" y="178.1328">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="440.5" x2="450.5" y1="201.7305" y2="201.7305"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="450.5" y="188.6641"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="456.5" y="206.2656">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="440.5" x2="440.5" y1="130.3984" y2="201.7305"/><line style="stroke:#323232;stroke-width:1.5;" x1="368" x2="378" y1="229.8633" y2="229.8633"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="108" x="378" y="216.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="384" y="234.3984">MapReduce 查詢</text><line style="stroke:#323232;stroke-width:1.5;" x1="432" x2="442" y1="257.9961" y2="257.9961"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="442" y="244.9297"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="448" y="262.5313">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="432" x2="442" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="442" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="448" y="290.6641">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="432" x2="442" y1="314.2617" y2="314.2617"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="442" y="301.1953"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="448" y="318.7969">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="432" x2="432" y1="242.9297" y2="314.2617"/><line style="stroke:#323232;stroke-width:1.5;" x1="368" x2="368" y1="102.2656" y2="229.8633"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="547" y1="56.1328" y2="76.1328"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="48" x="523" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="529" y="93.7344">圖模型</text><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="117.332" y2="117.332"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="48" x="557" y="104.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="563" y="121.8672">屬性圖</text><line style="stroke:#323232;stroke-width:1.5;" x1="581" x2="591" y1="145.4648" y2="145.4648"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="591" y="132.3984"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="597" y="150">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="581" x2="591" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="591" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="597" y="178.1328">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="581" x2="591" y1="201.7305" y2="201.7305"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="591" y="188.6641"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="597" y="206.2656">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="581" x2="581" y1="130.3984" y2="201.7305"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="229.8633" y2="229.8633"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="105" x="557" y="216.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="93" x="563" y="234.3984">Cypher 查詢語言</text><line style="stroke:#323232;stroke-width:1.5;" x1="609.5" x2="619.5" y1="257.9961" y2="257.9961"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="619.5" y="244.9297"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="625.5" y="262.5313">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="609.5" x2="619.5" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="619.5" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="625.5" y="290.6641">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="609.5" x2="619.5" y1="314.2617" y2="314.2617"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="619.5" y="301.1953"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="625.5" y="318.7969">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="609.5" x2="609.5" y1="242.9297" y2="314.2617"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="342.3945" y2="342.3945"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="97" x="557" y="329.3281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="563" y="346.9297">SQL 中的圖查詢</text><line style="stroke:#323232;stroke-width:1.5;" x1="605.5" x2="615.5" y1="370.5273" y2="370.5273"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="615.5" y="357.4609"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="621.5" y="375.0625">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="605.5" x2="615.5" y1="398.6602" y2="398.6602"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="615.5" y="385.5938"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="621.5" y="403.1953">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="605.5" x2="615.5" y1="426.793" y2="426.793"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="615.5" y="413.7266"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="621.5" y="431.3281">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="605.5" x2="605.5" y1="355.4609" y2="426.793"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="454.9258" y2="454.9258"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="132" x="557" y="441.8594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="563" y="459.4609">三元組儲存和 SPARQL</text><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="633" y1="483.0586" y2="483.0586"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="633" y="469.9922"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="639" y="487.5938">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="633" y1="511.1914" y2="511.1914"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="633" y="498.125"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="639" y="515.7266">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="633" y1="539.3242" y2="539.3242"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="633" y="526.2578"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="639" y="543.8594">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="633" y1="567.457" y2="567.457"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="60" x="633" y="554.3906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="639" y="571.9922">語義網路</text><line style="stroke:#323232;stroke-width:1.5;" x1="663" x2="673" y1="595.5898" y2="595.5898"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="673" y="582.5234"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="679" y="600.125">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="663" x2="673" y1="623.7227" y2="623.7227"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="673" y="610.6563"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="679" y="628.2578">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="663" x2="673" y1="651.8555" y2="651.8555"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="673" y="638.7891"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="679" y="656.3906">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="663" x2="663" y1="580.5234" y2="651.8555"/><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="633" y1="679.9883" y2="679.9883"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="87" x="633" y="666.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="639" y="684.5234">RDF 資料模型</text><line style="stroke:#323232;stroke-width:1.5;" x1="676.5" x2="686.5" y1="708.1211" y2="708.1211"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="686.5" y="695.0547"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="692.5" y="712.6563">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="676.5" x2="686.5" y1="736.2539" y2="736.2539"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="686.5" y="723.1875"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="692.5" y="740.7891">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="676.5" x2="686.5" y1="764.3867" y2="764.3867"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="686.5" y="751.3203"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="692.5" y="768.9219">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="676.5" x2="676.5" y1="693.0547" y2="764.3867"/><line style="stroke:#323232;stroke-width:1.5;" x1="623" x2="623" y1="467.9922" y2="679.9883"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="792.5195" y2="792.5195"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="108" x="557" y="779.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="563" y="797.0547">SPARQL 查詢語言</text><line style="stroke:#323232;stroke-width:1.5;" x1="611" x2="621" y1="820.6523" y2="820.6523"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="621" y="807.5859"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="627" y="825.1875">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="611" x2="621" y1="848.7852" y2="848.7852"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="621" y="835.7188"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="627" y="853.3203">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="611" x2="621" y1="876.918" y2="876.918"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="621" y="863.8516"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="627" y="881.4531">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="611" x2="621" y1="905.0508" y2="905.0508"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="168" x="621" y="891.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="156" x="627" y="909.5859">圖形資料庫與網路模型相比較</text><line style="stroke:#323232;stroke-width:1.5;" x1="705" x2="715" y1="933.1836" y2="933.1836"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="715" y="920.1172"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="721" y="937.7188">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="705" x2="715" y1="961.3164" y2="961.3164"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="715" y="948.25"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="721" y="965.8516">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="705" x2="715" y1="989.4492" y2="989.4492"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="715" y="976.3828"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="721" y="993.9844">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="705" x2="705" y1="918.1172" y2="989.4492"/><line style="stroke:#323232;stroke-width:1.5;" x1="611" x2="611" y1="805.5859" y2="905.0508"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="557" y1="1017.582" y2="1017.582"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="56" x="557" y="1004.5156"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="563" y="1022.1172">Datalog</text><line style="stroke:#323232;stroke-width:1.5;" x1="585" x2="595" y1="1045.7148" y2="1045.7148"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="595" y="1032.6484"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="601" y="1050.25">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="585" x2="595" y1="1073.8477" y2="1073.8477"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="595" y="1060.7813"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="601" y="1078.3828">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="585" x2="595" y1="1101.9805" y2="1101.9805"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="48" x="595" y="1088.9141"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="601" y="1106.5156">施工中</text><line style="stroke:#323232;stroke-width:1.5;" x1="585" x2="585" y1="1030.6484" y2="1101.9805"/><line style="stroke:#323232;stroke-width:1.5;" x1="547" x2="547" y1="102.2656" y2="1017.582"/><line style="stroke:#323232;stroke-width:1.5;" x1="70" x2="547" y1="56.1328" y2="56.1328"/><!--MD5=[08a00f9cf18c12d63c960f63ab1b59ac]
+@startwbs ddia_ch2_wbs
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.2 - 資料模型與查詢語言<<Type_Root>>
+
+** 關聯模型與文件模型<<Type1_Node>>
+
+*** NoSQL 的誕生<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 關聯對象不匹配<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 多對一和多對多關係<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 文件資料庫是否在重蹈覆徹<<Type1_Node>>
+
+**** 網路模型<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 關係模型<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 與文件資料庫相比<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** 關聯資料庫與文件資料庫\n在今日的對比<<Type1_Node>>
+
+**** 誰更有助於簡化程式碼
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 文件模型中的架構靈活性<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 查詢的資料局部性<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 文件和關聯資料庫的融合<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+** 資料查詢語言<<Type2_Node>>
+
+*** Web 上的聲明式查詢<<Type2_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** MapReduce 查詢<<Type2_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+** 圖模型<<Type3_Node>>
+
+*** 屬性圖<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** Cypher 查詢語言<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** SQL 中的圖查詢<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 三元組儲存和 SPARQL<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+**** 語義網路<<Type3_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** RDF 資料模型<<Type3_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** SPARQL 查詢語言<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+**** 圖形資料庫與網路模型相比較<<Type3_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** Datalog<<Type3_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+@endwbs
+
+PlantUML version 1.2021.00(Sun Jan 10 18:25:05 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: TW
+--></g></svg>

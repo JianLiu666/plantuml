@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1029px" preserveAspectRatio="none" style="width:1383px;height:1029px;background:#EFF1F3;" version="1.1" viewBox="0 0 1383 1029" width="1383px" zoomAndPan="magnify"><defs/><g><rect fill="#323232" height="44.9766" rx="7.5" ry="7.5" style="stroke:#323232;stroke-width:0.0;" width="138" x="573" y="491.0801"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="579" y="510.6152">DDIA Chapter.2 -</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="579" y="527.1035">資料模型與查詢語言</text><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="138" x="745" y="499.3242"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="751" y="518.8594">關聯模型與文件模型</text><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="103" x="917" y="60.7324"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="923" y="80.2676">NoSQL 的誕生</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1054" y="28.2441"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1060" y="47.7793">施工中</text><path d="M1020,74.9766 L1030,74.9766 C1045,74.9766 1029,42.4883 1044,42.4883 L1054,42.4883 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1054" y="60.7324"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1060" y="80.2676">施工中</text><path d="M1020,74.9766 L1030,74.9766 C1045,74.9766 1029,74.9766 1044,74.9766 L1054,74.9766 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1054" y="93.2207"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1060" y="112.7559">施工中</text><path d="M1020,74.9766 L1030,74.9766 C1045,74.9766 1029,107.4648 1044,107.4648 L1054,107.4648 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M883,513.5684 L893,513.5684 C908,513.5684 892,74.9766 907,74.9766 L917,74.9766 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="110" x="917" y="158.1973"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="923" y="177.7324">關聯對象不匹配</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1061" y="125.709"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1067" y="145.2441">施工中</text><path d="M1027,172.4414 L1037,172.4414 C1052,172.4414 1036,139.9531 1051,139.9531 L1061,139.9531 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1061" y="158.1973"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1067" y="177.7324">施工中</text><path d="M1027,172.4414 L1037,172.4414 C1052,172.4414 1036,172.4414 1051,172.4414 L1061,172.4414 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1061" y="190.6855"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1067" y="210.2207">施工中</text><path d="M1027,172.4414 L1037,172.4414 C1052,172.4414 1036,204.9297 1051,204.9297 L1061,204.9297 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M883,513.5684 L893,513.5684 C908,513.5684 892,172.4414 907,172.4414 L917,172.4414 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="138" x="917" y="255.6621"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="923" y="275.1973">多對一和多對多關係</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1089" y="223.1738"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1095" y="242.709">施工中</text><path d="M1055,269.9063 L1065,269.9063 C1080,269.9063 1064,237.418 1079,237.418 L1089,237.418 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1089" y="255.6621"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1095" y="275.1973">施工中</text><path d="M1055,269.9063 L1065,269.9063 C1080,269.9063 1064,269.9063 1079,269.9063 L1089,269.9063 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1089" y="288.1504"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1095" y="307.6855">施工中</text><path d="M1055,269.9063 L1065,269.9063 C1080,269.9063 1064,302.3945 1079,302.3945 L1089,302.3945 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M883,513.5684 L893,513.5684 C908,513.5684 892,269.9063 907,269.9063 L917,269.9063 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="180" x="917" y="450.5918"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="923" y="470.127">文件資料庫是否在重蹈覆徹</text><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="68" x="1131" y="353.127"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1137" y="372.6621">網路模型</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="320.6387"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="340.1738">施工中</text><path d="M1199,367.3711 L1209,367.3711 C1224,367.3711 1208,334.8828 1223,334.8828 L1233,334.8828 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="353.127"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="372.6621">施工中</text><path d="M1199,367.3711 L1209,367.3711 C1224,367.3711 1208,367.3711 1223,367.3711 L1233,367.3711 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="385.6152"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="405.1504">施工中</text><path d="M1199,367.3711 L1209,367.3711 C1224,367.3711 1208,399.8594 1223,399.8594 L1233,399.8594 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1097,464.8359 L1107,464.8359 C1122,464.8359 1106,367.3711 1121,367.3711 L1131,367.3711 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="68" x="1131" y="450.5918"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1137" y="470.127">關係模型</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="418.1035"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="437.6387">施工中</text><path d="M1199,464.8359 L1209,464.8359 C1224,464.8359 1208,432.3477 1223,432.3477 L1233,432.3477 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="450.5918"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="470.127">施工中</text><path d="M1199,464.8359 L1209,464.8359 C1224,464.8359 1208,464.8359 1223,464.8359 L1233,464.8359 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1233" y="483.0801"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1239" y="502.6152">施工中</text><path d="M1199,464.8359 L1209,464.8359 C1224,464.8359 1208,497.3242 1223,497.3242 L1233,497.3242 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1097,464.8359 L1107,464.8359 C1122,464.8359 1106,464.8359 1121,464.8359 L1131,464.8359 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="124" x="1131" y="548.0566"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1137" y="567.5918">與文件資料庫相比</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1289" y="515.5684"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1295" y="535.1035">施工中</text><path d="M1255,562.3008 L1265,562.3008 C1280,562.3008 1264,529.8125 1279,529.8125 L1289,529.8125 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1289" y="548.0566"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1295" y="567.5918">施工中</text><path d="M1255,562.3008 L1265,562.3008 C1280,562.3008 1264,562.3008 1279,562.3008 L1289,562.3008 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1289" y="580.5449"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1295" y="600.0801">施工中</text><path d="M1255,562.3008 L1265,562.3008 C1280,562.3008 1264,594.7891 1279,594.7891 L1289,594.7891 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1097,464.8359 L1107,464.8359 C1122,464.8359 1106,562.3008 1121,562.3008 L1131,562.3008 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M883,513.5684 L893,513.5684 C908,513.5684 892,464.8359 907,464.8359 L917,464.8359 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="44.9766" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="166" x="917" y="783.4746"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="923" y="803.0098">關聯資料庫與文件資料庫</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="923" y="819.498">在今日的對比</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="152" x="1117" y="645.5215"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1123" y="665.0566">誰更有助於簡化程式碼</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1303" y="613.0332"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1309" y="632.5684">施工中</text><path d="M1269,659.7656 L1279,659.7656 C1294,659.7656 1278,627.2773 1293,627.2773 L1303,627.2773 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1303" y="645.5215"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1309" y="665.0566">施工中</text><path d="M1269,659.7656 L1279,659.7656 C1294,659.7656 1278,659.7656 1293,659.7656 L1303,659.7656 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1303" y="678.0098"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1309" y="697.5449">施工中</text><path d="M1269,659.7656 L1279,659.7656 C1294,659.7656 1278,692.2539 1293,692.2539 L1303,692.2539 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><path d="M1083,805.9629 L1093,805.9629 C1108,805.9629 1092,659.7656 1107,659.7656 L1117,659.7656 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="166" x="1117" y="742.9863"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1123" y="762.5215">文件模型中的架構靈活性</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="710.498"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="730.0332">施工中</text><path d="M1283,757.2305 L1293,757.2305 C1308,757.2305 1292,724.7422 1307,724.7422 L1317,724.7422 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="742.9863"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="762.5215">施工中</text><path d="M1283,757.2305 L1293,757.2305 C1308,757.2305 1292,757.2305 1307,757.2305 L1317,757.2305 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="775.4746"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="795.0098">施工中</text><path d="M1283,757.2305 L1293,757.2305 C1308,757.2305 1292,789.7188 1307,789.7188 L1317,789.7188 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1083,805.9629 L1093,805.9629 C1108,805.9629 1092,757.2305 1107,757.2305 L1117,757.2305 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="124" x="1117" y="840.4512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1123" y="859.9863">查詢的資料局部性</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1275" y="807.9629"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1281" y="827.498">施工中</text><path d="M1241,854.6953 L1251,854.6953 C1266,854.6953 1250,822.207 1265,822.207 L1275,822.207 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1275" y="840.4512"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1281" y="859.9863">施工中</text><path d="M1241,854.6953 L1251,854.6953 C1266,854.6953 1250,854.6953 1265,854.6953 L1275,854.6953 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1275" y="872.9395"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1281" y="892.4746">施工中</text><path d="M1241,854.6953 L1251,854.6953 C1266,854.6953 1250,887.1836 1265,887.1836 L1275,887.1836 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1083,805.9629 L1093,805.9629 C1108,805.9629 1092,854.6953 1107,854.6953 L1117,854.6953 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#D3548A" height="28.4883" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="166" x="1117" y="937.916"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1123" y="957.4512">文件和關聯資料庫的融合</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="905.4277"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="924.9629">施工中</text><path d="M1283,952.1602 L1293,952.1602 C1308,952.1602 1292,919.6719 1307,919.6719 L1317,919.6719 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="937.916"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="957.4512">施工中</text><path d="M1283,952.1602 L1293,952.1602 C1308,952.1602 1292,952.1602 1307,952.1602 L1317,952.1602 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="1317" y="970.4043"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1323" y="989.9395">施工中</text><path d="M1283,952.1602 L1293,952.1602 C1308,952.1602 1292,984.6484 1307,984.6484 L1317,984.6484 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M1083,805.9629 L1093,805.9629 C1108,805.9629 1092,952.1602 1107,952.1602 L1117,952.1602 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M883,513.5684 L893,513.5684 C908,513.5684 892,805.9629 907,805.9629 L917,805.9629 " fill="none" style="stroke:#D3548A;stroke-width:1.0;"/><path d="M711,513.5684 L721,513.5684 C736,513.5684 720,513.5684 735,513.5684 L745,513.5684 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><rect fill="#0F5E8C" height="28.4883" rx="7.5" ry="7.5" style="stroke:#0F5E8C;stroke-width:0.0;" width="96" x="443" y="93.2207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="449" y="112.7559">資料查詢語言</text><rect fill="#0F5E8C" height="28.4883" rx="7.5" ry="7.5" style="stroke:#0F5E8C;stroke-width:0.0;" width="143" x="266" y="44.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="272" y="64.0234">Web 上的聲明式查詢</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="178" y="12"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="184" y="31.5352">施工中</text><path d="M266,58.7324 L256,58.7324 C241,58.7324 257,26.2441 242,26.2441 L232,26.2441 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="178" y="44.4883"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="184" y="64.0234">施工中</text><path d="M266,58.7324 L256,58.7324 C241,58.7324 257,58.7324 242,58.7324 L232,58.7324 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="178" y="76.9766"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="184" y="96.5117">施工中</text><path d="M266,58.7324 L256,58.7324 C241,58.7324 257,91.2207 242,91.2207 L232,91.2207 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><path d="M443,107.4648 L433,107.4648 C418,107.4648 434,58.7324 419,58.7324 L409,58.7324 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><rect fill="#0F5E8C" height="28.4883" rx="7.5" ry="7.5" style="stroke:#0F5E8C;stroke-width:0.0;" width="123" x="286" y="141.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="292" y="161.4883">MapReduce 查詢</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="198" y="109.4648"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="204" y="129">施工中</text><path d="M286,156.1973 L276,156.1973 C261,156.1973 277,123.709 262,123.709 L252,123.709 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="198" y="141.9531"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="204" y="161.4883">施工中</text><path d="M286,156.1973 L276,156.1973 C261,156.1973 277,156.1973 262,156.1973 L252,156.1973 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="198" y="174.4414"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="204" y="193.9766">施工中</text><path d="M286,156.1973 L276,156.1973 C261,156.1973 277,188.6855 262,188.6855 L252,188.6855 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><path d="M443,107.4648 L433,107.4648 C418,107.4648 434,156.1973 419,156.1973 L409,156.1973 " fill="none" style="stroke:#0F5E8C;stroke-width:1.0;"/><path d="M573,513.5684 L563,513.5684 C548,513.5684 564,107.4648 549,107.4648 L539,107.4648 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="54" x="485" y="596.7891"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="491" y="616.3242">圖模型</text><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="54" x="397" y="239.418"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="403" y="258.9531">屬性圖</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="309" y="206.9297"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="315" y="226.4648">施工中</text><path d="M397,253.6621 L387,253.6621 C372,253.6621 388,221.1738 373,221.1738 L363,221.1738 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="309" y="239.418"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="315" y="258.9531">施工中</text><path d="M397,253.6621 L387,253.6621 C372,253.6621 388,253.6621 373,253.6621 L363,253.6621 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="309" y="271.9063"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="315" y="291.4414">施工中</text><path d="M397,253.6621 L387,253.6621 C372,253.6621 388,286.1504 373,286.1504 L363,286.1504 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,253.6621 461,253.6621 L451,253.6621 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="121" x="330" y="336.8828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="336" y="356.418">Cypher 查詢語言</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="242" y="304.3945"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="248" y="323.9297">施工中</text><path d="M330,351.127 L320,351.127 C305,351.127 321,318.6387 306,318.6387 L296,318.6387 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="242" y="336.8828"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="248" y="356.418">施工中</text><path d="M330,351.127 L320,351.127 C305,351.127 321,351.127 306,351.127 L296,351.127 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="242" y="369.3711"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="248" y="388.9063">施工中</text><path d="M330,351.127 L320,351.127 C305,351.127 321,383.6152 306,383.6152 L296,383.6152 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,351.127 461,351.127 L451,351.127 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="112" x="339" y="434.3477"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="345" y="453.8828">SQL 中的圖查詢</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="251" y="401.8594"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="257" y="421.3945">施工中</text><path d="M339,448.5918 L329,448.5918 C314,448.5918 330,416.1035 315,416.1035 L305,416.1035 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="251" y="434.3477"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="257" y="453.8828">施工中</text><path d="M339,448.5918 L329,448.5918 C314,448.5918 330,448.5918 315,448.5918 L305,448.5918 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="251" y="466.8359"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="257" y="486.3711">施工中</text><path d="M339,448.5918 L329,448.5918 C314,448.5918 330,481.0801 315,481.0801 L305,481.0801 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,448.5918 461,448.5918 L451,448.5918 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="153" x="298" y="613.0332"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="304" y="632.5684">三元組儲存和 SPARQL</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="210" y="499.3242"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="216" y="518.8594">施工中</text><path d="M298,627.2773 L288,627.2773 C273,627.2773 289,513.5684 274,513.5684 L264,513.5684 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="210" y="531.8125"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="216" y="551.3477">施工中</text><path d="M298,627.2773 L288,627.2773 C273,627.2773 289,546.0566 274,546.0566 L264,546.0566 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="210" y="564.3008"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="216" y="583.8359">施工中</text><path d="M298,627.2773 L288,627.2773 C273,627.2773 289,578.5449 274,578.5449 L264,578.5449 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="68" x="196" y="596.7891"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="202" y="616.3242">語義網路</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="108" y="564.3008"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="114" y="583.8359">施工中</text><path d="M196,611.0332 L186,611.0332 C171,611.0332 187,578.5449 172,578.5449 L162,578.5449 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="108" y="596.7891"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="114" y="616.3242">施工中</text><path d="M196,611.0332 L186,611.0332 C171,611.0332 187,611.0332 172,611.0332 L162,611.0332 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="108" y="629.2773"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="114" y="648.8125">施工中</text><path d="M196,611.0332 L186,611.0332 C171,611.0332 187,643.5215 172,643.5215 L162,643.5215 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M298,627.2773 L288,627.2773 C273,627.2773 289,611.0332 274,611.0332 L264,611.0332 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="99" x="165" y="694.2539"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="171" y="713.7891">RDF 資料模型</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="77" y="661.7656"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="83" y="681.3008">施工中</text><path d="M165,708.498 L155,708.498 C140,708.498 156,676.0098 141,676.0098 L131,676.0098 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="77" y="694.2539"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="83" y="713.7891">施工中</text><path d="M165,708.498 L155,708.498 C140,708.498 156,708.498 141,708.498 L131,708.498 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="77" y="726.7422"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="83" y="746.2773">施工中</text><path d="M165,708.498 L155,708.498 C140,708.498 156,740.9863 141,740.9863 L131,740.9863 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M298,627.2773 L288,627.2773 C273,627.2773 289,708.498 274,708.498 L264,708.498 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,627.2773 461,627.2773 L451,627.2773 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="125" x="326" y="824.207"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="332" y="843.7422">SPARQL 查詢語言</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="238" y="759.2305"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="244" y="778.7656">施工中</text><path d="M326,838.4512 L316,838.4512 C301,838.4512 317,773.4746 302,773.4746 L292,773.4746 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="238" y="791.7188"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="244" y="811.2539">施工中</text><path d="M326,838.4512 L316,838.4512 C301,838.4512 317,805.9629 302,805.9629 L292,805.9629 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="238" y="824.207"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="244" y="843.7422">施工中</text><path d="M326,838.4512 L316,838.4512 C301,838.4512 317,838.4512 302,838.4512 L292,838.4512 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="194" x="98" y="856.6953"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="104" y="876.2305">圖形資料庫與網路模型相比較</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="10" y="824.207"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="16" y="843.7422">施工中</text><path d="M98,870.9395 L88,870.9395 C73,870.9395 89,838.4512 74,838.4512 L64,838.4512 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="10" y="856.6953"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="16" y="876.2305">施工中</text><path d="M98,870.9395 L88,870.9395 C73,870.9395 89,870.9395 74,870.9395 L64,870.9395 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="10" y="889.1836"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="16" y="908.7188">施工中</text><path d="M98,870.9395 L88,870.9395 C73,870.9395 89,903.4277 74,903.4277 L64,903.4277 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M326,838.4512 L316,838.4512 C301,838.4512 317,870.9395 302,870.9395 L292,870.9395 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,838.4512 461,838.4512 L451,838.4512 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#37A7A8" height="28.4883" rx="7.5" ry="7.5" style="stroke:#37A7A8;stroke-width:0.0;" width="65" x="386" y="954.1602"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="392" y="973.6953">Datalog</text><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="298" y="921.6719"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="304" y="941.207">施工中</text><path d="M386,968.4043 L376,968.4043 C361,968.4043 377,935.916 362,935.916 L352,935.916 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="298" y="954.1602"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="304" y="973.6953">施工中</text><path d="M386,968.4043 L376,968.4043 C361,968.4043 377,968.4043 362,968.4043 L352,968.4043 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><rect fill="#EFF1F3" height="28.4883" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="54" x="298" y="986.6484"/><text fill="#333333" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="304" y="1006.1836">施工中</text><path d="M386,968.4043 L376,968.4043 C361,968.4043 377,1000.8926 362,1000.8926 L352,1000.8926 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M485,611.0332 L475,611.0332 C460,611.0332 476,968.4043 461,968.4043 L451,968.4043 " fill="none" style="stroke:#37A7A8;stroke-width:1.0;"/><path d="M573,513.5684 L563,513.5684 C548,513.5684 564,611.0332 549,611.0332 L539,611.0332 " fill="none" style="stroke:#323232;stroke-width:1.0;"/><!--MD5=[e8e1df62edf1b50041ea5d2374fc1de2]
+@startmindmap ddia_ch2_mindmap
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.2 -\n資料模型與查詢語言<<Type_Root>>
+
+** 關聯模型與文件模型<<Type1_Node>>
+
+*** NoSQL 的誕生<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 關聯對象不匹配<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 多對一和多對多關係<<Type1_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 文件資料庫是否在重蹈覆徹<<Type1_Node>>
+
+**** 網路模型<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 關係模型<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 與文件資料庫相比<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** 關聯資料庫與文件資料庫\n在今日的對比<<Type1_Node>>
+
+**** 誰更有助於簡化程式碼
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 文件模型中的架構靈活性<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 查詢的資料局部性<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** 文件和關聯資料庫的融合<<Type1_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+left
+
+** 資料查詢語言<<Type4_Node>>
+
+*** Web 上的聲明式查詢<<Type4_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** MapReduce 查詢<<Type4_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+** 圖模型<<Type5_Node>>
+
+*** 屬性圖<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** Cypher 查詢語言<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** SQL 中的圖查詢<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+*** 三元組儲存和 SPARQL<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+**** 語義網路<<Type5_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+**** RDF 資料模型<<Type5_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** SPARQL 查詢語言<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+**** 圖形資料庫與網路模型相比較<<Type5_Node>>
+***** 施工中
+***** 施工中
+***** 施工中
+
+*** Datalog<<Type5_Node>>
+**** 施工中
+**** 施工中
+**** 施工中
+
+@endmindmap
+
+PlantUML version 1.2021.00(Sun Jan 10 18:25:05 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: TW
+--></g></svg>

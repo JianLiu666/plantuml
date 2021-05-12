@@ -1,0 +1,154 @@
+@startwbs ch1_wbs
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.1 - 可靠性、可伸縮性與可維護性<<Type_Root>>
+
+** 任務類型<<Type1_Node>>
+
+*** 計算密集型(CPU-Intensive)
+*** I/O密集型(IO-Intensive)
+*** 資料密集型(Data-Intensive)
+
+** 資料系統(Data System)<<Type2_Node>>
+
+*** 資料庫(Database)
+*** 快取(Cache)
+*** 搜尋索引(Search Indexes)
+*** 串流處理(Stream Processing)
+*** 批量處理(Batch Processing)
+
+** 可靠性(Reliability)<<Type3_Node>>
+
+*** 使系統在有限情境中，即使出現問題也能繼續\n正常工作的能力
+*** 比起預防錯誤，更傾向容忍錯誤
+*** 透過 Chaos Monkey 方法提升可靠性
+
+*** 硬體故障(Hardware Faults)<<Type3_Node>>
+**** 增加冗余(Redundancy) 提高單\n機可靠性
+**** 雲端平台透過彈性擴增機器變相\n提高可靠性
+
+*** 軟體錯誤(Software Errors)<<Type3_Node>>
+**** 容易產生連鎖性錯誤，導致更多\n系統相繼失效
+**** 並非每次都能捕捉到真正的錯誤\n原因
+**** 透過假設與大量測試保證系統的\n安全工作範圍
+**** 程序隔離(Process Isolation)
+**** 監控並加入錯誤警告機制
+
+*** 人為錯誤(Human Errors)<<Type3_Node>>
+**** 正確且友善的使用抽象設計
+**** 設計上適時加入解耦，讓開發者\n可以使用真實資料進行測試
+**** 足夠的單元測試、整合測試與手\n動、自動化測試
+**** 確保運行失敗時能夠快速回滾\n(Roll back)
+**** 詳細且動機明確的監控機制
+
+** 可伸縮性(Scalability)<<Type4_Node>>
+
+*** 根據業務場景決定如何擴展服務，才是有意義\n的擴展
+
+*** 描述負載(Discribing Load)<<Type4_Node>>
+**** 量化生產環境的各項數據
+**** 制定負載引數(Load parameter)
+
+*** 描述性能(Discribing Performance)<<Type4_Node>>
+**** 提升負載並固定系統資源時對效\n能造成的影響？
+**** 提升負載並維持效能時需增加多\n少的系統資源？
+**** 決定度量標準與數值分佈
+**** 測試方式與生產環境流程必須盡\n可能對齊
+
+*** 對應負載的方法<<Type4_Node>>
+**** 垂直擴展(Vertical scaling)
+**** 水平擴展(Horizontal scaling)
+**** 因地制宜，且能與時俱進
+
+** 可維護性(Maintainability)<<Type5_Node>>
+
+*** 使產品能夠持續迭代的能力
+
+*** 可操作性(Operability)<<Type5_Node>>
+**** 關愛維運，人人有責
+**** 提供系統文件與使用範例
+**** 提供彈性的參數設定方式
+**** 提供自定義的監控指標(Metrics)
+
+*** 簡單性(Simplicity)<<Type5_Node>>
+**** 控管複雜度
+**** 適度的抽象、解耦
+**** 設計框架時也須考量團隊程度
+
+*** 可演化性(Evolvability)<<Type5_Node>>
+**** 擁抱變化
+**** 測試驅動開發、敏捷開發與定時\n重構
+
+@endwbs
