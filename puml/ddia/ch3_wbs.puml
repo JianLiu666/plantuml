@@ -1,0 +1,165 @@
+@startwbs ch3_wbs
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.3 - Storage and Retrieval<<Type_Root>>
+
+** Data Structures That Power Your Database<<Type1_Node>>
+*** 施工中 ...
+
+*** Hash Indexes<<Type1_Node>>
+**** 施工中 ...
+
+*** SSTables and LSM-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Constructing and maintaining SSTable<<Type1_Node>>
+***** 施工中 ...
+
+**** Making an LSM-tree out of SSTable<<Type1_Node>>
+***** 施工中 ...
+
+**** Performance optimizations<<Type1_Node>>
+***** 施工中 ...
+
+*** B-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Make B-trees reliable<<Type1_Node>>
+***** 施工中 ...
+
+**** B-tree optimizations<<Type1_Node>>
+***** 施工中 ...
+
+*** Comparing B-Trees and LSM-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Advantages of LSM-trees<<Type1_Node>>
+***** 施工中 ...
+
+**** Downsides of LSM-trees<<Type1_Node>>
+***** 施工中 ...
+
+*** Other Indexing Structures<<Type1_Node>>
+**** 施工中 ...
+
+**** Storing values within the index<<Type1_Node>>
+***** 施工中 ...
+
+**** Multi-column indexes<<Type1_Node>>
+***** 施工中 ...
+
+**** Full-text search and fuzzy indexes<<Type1_Node>>
+***** 施工中 ...
+
+**** Keeping everything in memory<<Type1_Node>>
+***** 施工中 ...
+
+** Transaction Processing or Analytics ?<<Type2_Node>>
+*** 施工中 ...
+
+*** Data Warehousing<<Type2_Node>>
+**** 施工中 ...
+
+**** The divergence between OLTP databases and data warehouse<<Type2_Node>>
+***** 施工中 ...
+
+*** Stars and Snowflakes: Schemas for Analytics<<Type2_Node>>
+**** 施工中 ...
+
+** Column-Oriented Storage<<Type3_Node>>
+*** 施工中 ...
+
+*** Column Compression<<Type3_Node>>
+**** 施工中 ...
+
+**** Column-oriented storage and column families<<Type3_Node>>
+***** 施工中 ...
+
+**** Memory bandwitch and vectorized processing<<Type3_Node>>
+***** 施工中 ...
+
+*** Sort Order in Column Storage<<Type3_Node>>
+**** 施工中 ...
+
+**** Several different sort orders<<Type3_Node>>
+***** 施工中 ...
+
+*** Writing to Column-Oriented Storage<<Type3_Node>>
+**** 施工中 ...
+
+*** Aggregation: Data Cubes and Materialized Views<<Type3_Node>>
+**** 施工中 ...
+
+@endwbs

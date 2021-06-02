@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1041px" preserveAspectRatio="none" style="width:1522px;height:1041px;background:#EFF1F3;" version="1.1" viewBox="0 0 1522 1041" width="1522px" zoomAndPan="magnify"><defs/><g><rect fill="#323232" height="26.1328" rx="7.5" ry="7.5" style="stroke:#323232;stroke-width:0.0;" width="241" x="620.25" y="10"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="229" x="626.25" y="27.6016">DDIA Chapter.3 - Storage and Retrieval</text><line style="stroke:#323232;stroke-width:1.5;" x1="740.75" x2="740.75" y1="36.1328" y2="56.1328"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="139" y1="56.1328" y2="76.1328"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="258" x="10" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="246" x="16" y="93.7344">Data Structures That Power Your Database</text><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="117.332" y2="117.332"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="149" y="104.2656"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="155" y="121.8672">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="145.4648" y2="145.4648"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="90" x="149" y="132.3984"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="155" y="150">Hash Indexes</text><line style="stroke:#323232;stroke-width:1.5;" x1="194" x2="204" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="204" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="210" y="178.1328">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="194" x2="194" y1="158.5313" y2="173.5977"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="201.7305" y2="201.7305"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="155" x="149" y="188.6641"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="155" y="206.2656">SSTables and LSM-Trees</text><line style="stroke:#323232;stroke-width:1.5;" x1="226.5" x2="236.5" y1="229.8633" y2="229.8633"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="236.5" y="216.7969"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="242.5" y="234.3984">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="226.5" x2="236.5" y1="257.9961" y2="257.9961"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="228" x="236.5" y="244.9297"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="216" x="242.5" y="262.5313">Constructing and maintaining SSTable</text><line style="stroke:#323232;stroke-width:1.5;" x1="350.5" x2="360.5" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="360.5" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="366.5" y="290.6641">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="350.5" x2="350.5" y1="271.0625" y2="286.1289"/><line style="stroke:#323232;stroke-width:1.5;" x1="226.5" x2="236.5" y1="314.2617" y2="314.2617"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="213" x="236.5" y="301.1953"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="201" x="242.5" y="318.7969">Making an LSM-tree out of SSTable</text><line style="stroke:#323232;stroke-width:1.5;" x1="343" x2="353" y1="342.3945" y2="342.3945"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="353" y="329.3281"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="359" y="346.9297">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="343" x2="343" y1="327.3281" y2="342.3945"/><line style="stroke:#323232;stroke-width:1.5;" x1="226.5" x2="236.5" y1="370.5273" y2="370.5273"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="166" x="236.5" y="357.4609"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="242.5" y="375.0625">Performance optimizations</text><line style="stroke:#323232;stroke-width:1.5;" x1="319.5" x2="329.5" y1="398.6602" y2="398.6602"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="329.5" y="385.5938"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="335.5" y="403.1953">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="319.5" x2="319.5" y1="383.5938" y2="398.6602"/><line style="stroke:#323232;stroke-width:1.5;" x1="226.5" x2="226.5" y1="214.7969" y2="370.5273"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="426.793" y2="426.793"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="59" x="149" y="413.7266"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="155" y="431.3281">B-Trees</text><line style="stroke:#323232;stroke-width:1.5;" x1="178.5" x2="188.5" y1="454.9258" y2="454.9258"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="188.5" y="441.8594"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="194.5" y="459.4609">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="178.5" x2="188.5" y1="483.0586" y2="483.0586"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="137" x="188.5" y="469.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="125" x="194.5" y="487.5938">Make B-trees reliable</text><line style="stroke:#323232;stroke-width:1.5;" x1="257" x2="267" y1="511.1914" y2="511.1914"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="267" y="498.125"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="273" y="515.7266">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="257" x2="257" y1="496.125" y2="511.1914"/><line style="stroke:#323232;stroke-width:1.5;" x1="178.5" x2="188.5" y1="539.3242" y2="539.3242"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="130" x="188.5" y="526.2578"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="194.5" y="543.8594">B-tree optimizations</text><line style="stroke:#323232;stroke-width:1.5;" x1="253.5" x2="263.5" y1="567.457" y2="567.457"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="263.5" y="554.3906"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="269.5" y="571.9922">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="253.5" x2="253.5" y1="552.3906" y2="567.457"/><line style="stroke:#323232;stroke-width:1.5;" x1="178.5" x2="178.5" y1="439.8594" y2="539.3242"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="595.5898" y2="595.5898"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="218" x="149" y="582.5234"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="206" x="155" y="600.125">Comparing B-Trees and LSM-Trees</text><line style="stroke:#323232;stroke-width:1.5;" x1="258" x2="268" y1="623.7227" y2="623.7227"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="268" y="610.6563"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="274" y="628.2578">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="258" x2="268" y1="651.8555" y2="651.8555"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="156" x="268" y="638.7891"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="274" y="656.3906">Advantages of LSM-trees</text><line style="stroke:#323232;stroke-width:1.5;" x1="346" x2="356" y1="679.9883" y2="679.9883"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="356" y="666.9219"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="362" y="684.5234">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="346" x2="346" y1="664.9219" y2="679.9883"/><line style="stroke:#323232;stroke-width:1.5;" x1="258" x2="268" y1="708.1211" y2="708.1211"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="151" x="268" y="695.0547"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="274" y="712.6563">Downsides of LSM-trees</text><line style="stroke:#323232;stroke-width:1.5;" x1="343.5" x2="353.5" y1="736.2539" y2="736.2539"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="353.5" y="723.1875"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="359.5" y="740.7891">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="343.5" x2="343.5" y1="721.1875" y2="736.2539"/><line style="stroke:#323232;stroke-width:1.5;" x1="258" x2="258" y1="608.6563" y2="708.1211"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="149" y1="764.3867" y2="764.3867"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="158" x="149" y="751.3203"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="146" x="155" y="768.9219">Other Indexing Structures</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="792.5195" y2="792.5195"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="238" y="779.4531"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="244" y="797.0547">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="820.6523" y2="820.6523"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="186" x="238" y="807.5859"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="174" x="244" y="825.1875">Storing values within the index</text><line style="stroke:#323232;stroke-width:1.5;" x1="331" x2="341" y1="848.7852" y2="848.7852"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="341" y="835.7188"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="347" y="853.3203">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="331" x2="331" y1="833.7188" y2="848.7852"/><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="876.918" y2="876.918"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="136" x="238" y="863.8516"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="124" x="244" y="881.4531">Multi-column indexes</text><line style="stroke:#323232;stroke-width:1.5;" x1="306" x2="316" y1="905.0508" y2="905.0508"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="316" y="891.9844"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="322" y="909.5859">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="306" x2="306" y1="889.9844" y2="905.0508"/><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="933.1836" y2="933.1836"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="212" x="238" y="920.1172"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="200" x="244" y="937.7188">Full-text search and fuzzy indexes</text><line style="stroke:#323232;stroke-width:1.5;" x1="344" x2="354" y1="961.3164" y2="961.3164"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="354" y="948.25"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="360" y="965.8516">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="344" x2="344" y1="946.25" y2="961.3164"/><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="238" y1="989.4492" y2="989.4492"/><rect fill="#D3548A" height="26.1328" rx="7.5" ry="7.5" style="stroke:#D3548A;stroke-width:0.0;" width="187" x="238" y="976.3828"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="175" x="244" y="993.9844">Keeping everything in memory</text><line style="stroke:#323232;stroke-width:1.5;" x1="331.5" x2="341.5" y1="1017.582" y2="1017.582"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="341.5" y="1004.5156"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="347.5" y="1022.1172">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="331.5" x2="331.5" y1="1002.5156" y2="1017.582"/><line style="stroke:#323232;stroke-width:1.5;" x1="228" x2="228" y1="777.4531" y2="989.4492"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="139" y1="102.2656" y2="764.3867"/><line style="stroke:#323232;stroke-width:1.5;" x1="596" x2="596" y1="56.1328" y2="76.1328"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="223" x="484.5" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="211" x="490.5" y="93.7344">Transaction Processing or Analytics ?</text><line style="stroke:#323232;stroke-width:1.5;" x1="596" x2="606" y1="117.332" y2="117.332"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="606" y="104.2656"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="612" y="121.8672">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="596" x2="606" y1="145.4648" y2="145.4648"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="116" x="606" y="132.3984"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="612" y="150">Data Warehousing</text><line style="stroke:#323232;stroke-width:1.5;" x1="664" x2="674" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="674" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="680" y="178.1328">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="664" x2="674" y1="201.7305" y2="201.7305"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="374" x="674" y="188.6641"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="680" y="206.2656">The divergence between OLTP databases and data warehouse</text><line style="stroke:#323232;stroke-width:1.5;" x1="861" x2="871" y1="229.8633" y2="229.8633"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="871" y="216.7969"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="877" y="234.3984">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="861" x2="861" y1="214.7969" y2="229.8633"/><line style="stroke:#323232;stroke-width:1.5;" x1="664" x2="664" y1="158.5313" y2="201.7305"/><line style="stroke:#323232;stroke-width:1.5;" x1="596" x2="606" y1="257.9961" y2="257.9961"/><rect fill="#F4B031" height="26.1328" rx="7.5" ry="7.5" style="stroke:#F4B031;stroke-width:0.0;" width="265" x="606" y="244.9297"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="253" x="612" y="262.5313">Stars and Snowflakes: Schemas for Analytics</text><line style="stroke:#323232;stroke-width:1.5;" x1="738.5" x2="748.5" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="748.5" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="754.5" y="290.6641">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="738.5" x2="738.5" y1="271.0625" y2="286.1289"/><line style="stroke:#323232;stroke-width:1.5;" x1="596" x2="596" y1="102.2656" y2="257.9961"/><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1147.5" y1="56.1328" y2="76.1328"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="159" x="1068" y="76.1328"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="147" x="1074" y="93.7344">Column-Oriented Storage</text><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1157.5" y1="117.332" y2="117.332"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1157.5" y="104.2656"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1163.5" y="121.8672">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1157.5" y1="145.4648" y2="145.4648"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="134" x="1157.5" y="132.3984"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="1163.5" y="150">Column Compression</text><line style="stroke:#323232;stroke-width:1.5;" x1="1224.5" x2="1234.5" y1="173.5977" y2="173.5977"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1234.5" y="160.5313"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1240.5" y="178.1328">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1224.5" x2="1234.5" y1="201.7305" y2="201.7305"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="276" x="1234.5" y="188.6641"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="264" x="1240.5" y="206.2656">Column-oriented storage and column families</text><line style="stroke:#323232;stroke-width:1.5;" x1="1372.5" x2="1382.5" y1="229.8633" y2="229.8633"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1382.5" y="216.7969"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1388.5" y="234.3984">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1372.5" x2="1372.5" y1="214.7969" y2="229.8633"/><line style="stroke:#323232;stroke-width:1.5;" x1="1224.5" x2="1234.5" y1="257.9961" y2="257.9961"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="277" x="1234.5" y="244.9297"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="265" x="1240.5" y="262.5313">Memory bandwitch and vectorized processing</text><line style="stroke:#323232;stroke-width:1.5;" x1="1373" x2="1383" y1="286.1289" y2="286.1289"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1383" y="273.0625"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1389" y="290.6641">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1373" x2="1373" y1="271.0625" y2="286.1289"/><line style="stroke:#323232;stroke-width:1.5;" x1="1224.5" x2="1224.5" y1="158.5313" y2="257.9961"/><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1157.5" y1="314.2617" y2="314.2617"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="180" x="1157.5" y="301.1953"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="168" x="1163.5" y="318.7969">Sort Order in Column Storage</text><line style="stroke:#323232;stroke-width:1.5;" x1="1247.5" x2="1257.5" y1="342.3945" y2="342.3945"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1257.5" y="329.3281"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1263.5" y="346.9297">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1247.5" x2="1257.5" y1="370.5273" y2="370.5273"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="174" x="1257.5" y="357.4609"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="162" x="1263.5" y="375.0625">Several different sort orders</text><line style="stroke:#323232;stroke-width:1.5;" x1="1344.5" x2="1354.5" y1="398.6602" y2="398.6602"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1354.5" y="385.5938"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1360.5" y="403.1953">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1344.5" x2="1344.5" y1="383.5938" y2="398.6602"/><line style="stroke:#323232;stroke-width:1.5;" x1="1247.5" x2="1247.5" y1="327.3281" y2="370.5273"/><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1157.5" y1="426.793" y2="426.793"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="217" x="1157.5" y="413.7266"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="205" x="1163.5" y="431.3281">Writing to Column-Oriented Storage</text><line style="stroke:#323232;stroke-width:1.5;" x1="1266" x2="1276" y1="454.9258" y2="454.9258"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1276" y="441.8594"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1282" y="459.4609">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1266" x2="1266" y1="439.8594" y2="454.9258"/><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1157.5" y1="483.0586" y2="483.0586"/><rect fill="#BD4231" height="26.1328" rx="7.5" ry="7.5" style="stroke:#BD4231;stroke-width:0.0;" width="294" x="1157.5" y="469.9922"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="282" x="1163.5" y="487.5938">Aggregation: Data Cubes and Materialized Views</text><line style="stroke:#323232;stroke-width:1.5;" x1="1304.5" x2="1314.5" y1="511.1914" y2="511.1914"/><rect fill="#EFF1F3" height="26.1328" rx="7.5" ry="7.5" style="stroke:#A80036;stroke-width:0.0;" width="64" x="1314.5" y="498.125"/><text fill="#333333" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1320.5" y="515.7266">施工中 ...</text><line style="stroke:#323232;stroke-width:1.5;" x1="1304.5" x2="1304.5" y1="496.125" y2="511.1914"/><line style="stroke:#323232;stroke-width:1.5;" x1="1147.5" x2="1147.5" y1="102.2656" y2="483.0586"/><line style="stroke:#323232;stroke-width:1.5;" x1="139" x2="1147.5" y1="56.1328" y2="56.1328"/><!--MD5=[cba8aef7abddb8a0ba786c11ff5ae994]
+@startwbs ch3_wbs
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.3 - Storage and Retrieval<<Type_Root>>
+
+** Data Structures That Power Your Database<<Type1_Node>>
+*** 施工中 ...
+
+*** Hash Indexes<<Type1_Node>>
+**** 施工中 ...
+
+*** SSTables and LSM-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Constructing and maintaining SSTable<<Type1_Node>>
+***** 施工中 ...
+
+**** Making an LSM-tree out of SSTable<<Type1_Node>>
+***** 施工中 ...
+
+**** Performance optimizations<<Type1_Node>>
+***** 施工中 ...
+
+*** B-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Make B-trees reliable<<Type1_Node>>
+***** 施工中 ...
+
+**** B-tree optimizations<<Type1_Node>>
+***** 施工中 ...
+
+*** Comparing B-Trees and LSM-Trees<<Type1_Node>>
+**** 施工中 ...
+
+**** Advantages of LSM-trees<<Type1_Node>>
+***** 施工中 ...
+
+**** Downsides of LSM-trees<<Type1_Node>>
+***** 施工中 ...
+
+*** Other Indexing Structures<<Type1_Node>>
+**** 施工中 ...
+
+**** Storing values within the index<<Type1_Node>>
+***** 施工中 ...
+
+**** Multi-column indexes<<Type1_Node>>
+***** 施工中 ...
+
+**** Full-text search and fuzzy indexes<<Type1_Node>>
+***** 施工中 ...
+
+**** Keeping everything in memory<<Type1_Node>>
+***** 施工中 ...
+
+** Transaction Processing or Analytics ?<<Type2_Node>>
+*** 施工中 ...
+
+*** Data Warehousing<<Type2_Node>>
+**** 施工中 ...
+
+**** The divergence between OLTP databases and data warehouse<<Type2_Node>>
+***** 施工中 ...
+
+*** Stars and Snowflakes: Schemas for Analytics<<Type2_Node>>
+**** 施工中 ...
+
+** Column-Oriented Storage<<Type3_Node>>
+*** 施工中 ...
+
+*** Column Compression<<Type3_Node>>
+**** 施工中 ...
+
+**** Column-oriented storage and column families<<Type3_Node>>
+***** 施工中 ...
+
+**** Memory bandwitch and vectorized processing<<Type3_Node>>
+***** 施工中 ...
+
+*** Sort Order in Column Storage<<Type3_Node>>
+**** 施工中 ...
+
+**** Several different sort orders<<Type3_Node>>
+***** 施工中 ...
+
+*** Writing to Column-Oriented Storage<<Type3_Node>>
+**** 施工中 ...
+
+*** Aggregation: Data Cubes and Materialized Views<<Type3_Node>>
+**** 施工中 ...
+
+@endwbs
+
+PlantUML version 1.2021.00(Sun Jan 10 18:25:05 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: TW
+--></g></svg>
