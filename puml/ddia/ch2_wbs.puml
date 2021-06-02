@@ -73,121 +73,133 @@ node {
 }
 </style>
 
-* DDIA Chapter.2 - 資料模型與查詢語言<<Type_Root>>
+* DDIA Chapter.2 - Data Models and Query Languages<<Type_Root>>
 
-** 關聯模型與文件模型<<Type1_Node>>
+** Relational Model vs. Document Model<<Type1_Node>>
 
-*** NoSQL 的誕生<<Type1_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** 1970 年 Edgar F. Codd 提出關聯模型。
+*** 是當時在商業應用中操作結構化資料的首選解決方案。
+*** 其強項為 Transaction 與 batch processing。
 
-*** 關聯對象不匹配<<Type1_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** The Birth of NoSQL<<Type1_Node>>
+**** 源自 2009 年的一場線上開源聚會。
+**** 需要比關聯模型更好的可擴展性與寫入吞吐量。
+**** 掙脫 schema 帶來的限制與束縛。
 
-*** 多對一和多對多關係<<Type1_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** The Object-Relational Mismatch<<Type1_Node>>
+**** 大多透過 ORM 框架處理中介轉換。
+**** 關聯模型相較文件模型而言，較不擅長處理一對多的資料關係。
+**** JSON 非常適合描述 self-contained的資料關係。
 
-*** 文件資料庫是否在重蹈覆徹<<Type1_Node>>
+*** Many-to-One and Many-to-Many Relationship<<Type1_Node>>
+**** 關聯模型提供的正規化優勢：避免歧義、減\n少冗余、易於更新與查詢。
+**** 比文件模型更擅長描述多對一的資料關係。
 
-**** 網路模型<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+*** Are Document Databases Repeating History ?<<Type1_Node>>
+**** 1970 年 IBM 提出的階層模型與現代的文件模型十分接近。
+**** 不支援 JOIN，非常不利於多對多關係查詢。
 
-**** 關係模型<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** The Network Model<<Type1_Node>>
+***** 根據階層模型演化而來，又稱 CODASYL 模型。
+***** 為了解決多對一與多對多資料關係，提出類似指標的方式關聯資料，稱為 Access Path。
+***** 必須人為維護複雜的查詢算法。
 
-**** 與文件資料庫相比<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** The Relation Model<<Type1_Node>>
+***** 能夠靈活且直覺的操作 CRUD。
+***** 不需人工維護查詢算法，由查詢優化器自動計算。
+***** 加入索引可以有效加速查詢速度。
 
-*** 關聯資料庫與文件資料庫\n在今日的對比<<Type1_Node>>
+**** Comparison to document model<<Type1_Node>>
+***** 借鑑階層模型描述一對多資料關係的方式：record tree。
+***** 借鑑關聯模型描述多對一資料關係的方式：foreign key。
 
-**** 誰更有助於簡化程式碼
-***** 施工中
-***** 施工中
-***** 施工中
+*** Relational Versus Document Databases Today<<Type1_Node>>
+**** 關聯模型適合多對一資料關係。
+**** 文件模型適合一對多資料關係。
 
-**** 文件模型中的架構靈活性<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** Which data model leads to simpler application code<<Type1_Node>>
+***** 根據業務情境而定。
 
-**** 查詢的資料局部性<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** Schema flexibility in the document model<<Type1_Node>>
+***** 文件模型通常為 schema on read。
+***** 關聯模型通常為 schema on write。
+***** 在需要 migration 時的差異尤其明顯。
 
-**** 文件和關聯資料庫的融合<<Type1_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** Data locality for queries<<Type1_Node>>
+***** storage locality 是把雙面刃，其保存型態通常是 encoded byte datatype。
+***** 即使只是小面積修改資料，還是需要操作整份資料。
+***** 但其優勢也被相繼加入到各自的 RDBMS 的產品內。
 
-** 資料查詢語言<<Type2_Node>>
+**** Convergence of document and relational databases<<Type1_Node>>
+***** E.F.Codd 在 1970 年時也曾提出類似於互相融合的概念。
+***** 隨著時間迭代，彼此差異逐漸縮小。
 
-*** Web 上的聲明式查詢<<Type2_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+** Query Language for Data<<Type2_Node>>
+*** 命令式查詢語言(Imperative)：如同程式語言。
+*** 必須藉由人為維護查詢邏輯。
+*** 對資料集的結構變化極為敏感。
+*** 聲明式查詢語言(declarative)：如同抽象化設計。
+*** 只需提供搜尋條件。
+*** 透過查詢優化器提升查詢效能。
+*** 不在意資料間的對應關係，保留更多優化空間，例如平行處理。
 
-*** MapReduce 查詢<<Type2_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** Declarative Queries on the Web<<Type2_Node>>
+**** 聲明式查詢語言具備較高可讀性。
 
-** 圖模型<<Type3_Node>>
+*** MapReduce Querying<<Type2_Node>>
+**** 混合命令與聲明式的查詢語言。
+**** 為可擴展性的硬體叢集服務。
+**** 藉由組合來實現 SQL 中的高階查詢方式。
+**** 保留更多的資料操作與維護性。
 
-*** 屬性圖<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+** Graph-Like Data Models<<Type3_Node>>
+*** Vertex：aka Node, Entity。
+*** Edge：aka Relationship, Arc。
 
-*** Cypher 查詢語言<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** Property Graphs<<Type3_Node>>
+**** 任意兩個 Vertices 都可以透過一條 edge 連在一起。
+**** Vertex 包含一個 UUID，以及：
+**** 一組 outgoing/ingoing edges。
+**** 一組 key-value pairs。
+**** Edge 包含一個 UUID，以及：
+**** 與之相連的 tail/head vertex。
+**** 代表其意義的標籤。
+**** 一組 key-value pairs。
 
-*** SQL 中的圖查詢<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** The Cypher Query Language<<Type3_Node>>
+**** 屬於聲明式查詢語言。
 
-*** 三元組儲存和 SPARQL<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+*** Graph Queries in SQL<<Type3_Node>>
+**** SQL 在查詢多對多關係資料時所面臨到的問題為，我們必須知道有哪些表需要被 JOIN。
+**** 圖模型可以做到用更簡潔的語法表示複雜的遞迴表達式。
 
-**** 語義網路<<Type3_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+*** Triple-Stores and SPARQL<<Type3_Node>>
+**** (subjet, predicate, object)
+**** subject 與圖模型中的 vertex 等價。
+**** 當 object 為 Primitive Datatype 時，predicate 與 object 與圖模型中的 key-value pair 等價。
+**** 當 object 表示為另一個 subject 時，predicate 與圖模型中的 edge 等價。
 
-**** RDF 資料模型<<Type3_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+**** The semantic web<<Type3_Node>>
+***** 它與 Triple-Stores 之間大概就像 JAVA 與 Javascript 之間的關係一樣。
 
-*** SPARQL 查詢語言<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+**** The RDF data model<<Type3_Node>>
+***** W3C 在 1992 年制定，希望通過統一規則描述網路資源的方式。
+***** Subject = Resource，表示物件的 URI。
+***** Predicate = Property，表示欲描述的特徵。
+***** Object = Statement，表示其內容。
 
-**** 圖形資料庫與網路模型相比較<<Type3_Node>>
-***** 施工中
-***** 施工中
-***** 施工中
+*** The SPARQL query language<<Type3_Node>>
+**** Cypher 的前身，與 Cypher 極其相似。
 
-*** Datalog<<Type3_Node>>
-**** 施工中
-**** 施工中
-**** 施工中
+**** Graph Databases Compared to the Network Model<<Type3_Node>>
+***** CODASYL 受限 schema，無法任意關聯兩筆不同的資料。
+***** 命令式查詢語言 vs. 聲明式查詢語言。
+***** CODASYL 在搜尋時必須自行窮舉，圖模型可以透過查詢優化器預測。
+***** CODASYL 對資料集極其敏感，維護成本較高。
+
+*** The Foundation: Datalog<<Type3_Node>>
+**** 可以說是奠定了查詢語言的前身。
+**** 與 Triple-Stores 對資料模型的描述十分相似：predicate(subject, object)
+**** 透過給定規則實現查詢邏輯，如同程式中的函數，可以實現自我遞迴。
 
 @endwbs
