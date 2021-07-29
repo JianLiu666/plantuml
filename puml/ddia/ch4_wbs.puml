@@ -1,0 +1,156 @@
+@startwbs ch4_wbs
+
+skinparam Shadowing false
+skinparam BackgroundColor #EFF1F3
+skinparam linetype ortho
+
+<style>
+arrow {
+    LineColor #323232
+}
+node {
+    Padding 6
+    Margin 2
+    RoundCorner 15
+    LineThickness 0.0
+    BackgroundColor #EFF1F3
+    FontColor #333333
+}
+.Type_Root {
+    BackgroundColor #323232
+    FontColor #FFFFFF
+    LineColor #323232
+}
+.Type1_Node {
+    BackgroundColor #D3548A
+    FontColor #FFFFFF
+    LineColor #D3548A
+}
+.Type1_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #D3548A
+}
+.Type2_Node {
+    BackgroundColor #F4B031
+    FontColor #FFFFFF
+    LineColor #F4B031
+}
+.Type2_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #F4B031
+}
+.Type3_Node {
+    BackgroundColor #BD4231
+    FontColor #FFFFFF
+    LineColor #BD4231
+}
+.Type3_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #BD4231
+}
+.Type4_Node {
+    BackgroundColor #0F5E8C
+    FontColor #FFFFFF
+    LineColor #0F5E8C
+}
+.Type4_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #0F5E8C
+}
+.Type5_Node {
+    BackgroundColor #37A7A8
+    FontColor #FFFFFF
+    LineColor #37A7A8
+}
+.Type5_LeafNode {
+    RoundCorner 0
+    LineThickness 1.0
+    LineColor #37A7A8
+}
+</style>
+
+* DDIA Chapter.4 - Encoding and Evolution<<Type_Root>>
+
+** Formats for Encoding Data<<Type1_Node>>
+*** 施工中 ...
+
+*** Language-Specific Formats<<Type1_Node>>
+**** 施工中 ...
+
+*** JSON, XML, and Binary Variants<<Type1_Node>>
+**** 施工中 ...
+
+**** Binary encoding<<Type1_Node>>
+***** 施工中 ...
+
+*** Thrift and Protocol Buffers<<Type1_Node>>
+**** 施工中 ...
+
+**** Field tags and schema evolution<<Type1_Node>>
+***** 施工中 ...
+
+**** Datatypes and schema evolution<<Type1_Node>>
+***** 施工中 ...
+
+*** Avro<<Type1_Node>>
+**** 施工中 ...
+
+**** The writer's schema and the reader's schema<<Type1_Node>>
+***** 施工中 ...
+
+**** Schema evolution rules<<Type1_Node>>
+***** 施工中 ...
+
+**** But what is the writer's schema<<Type1_Node>>
+***** 施工中 ...
+
+**** Dynamically generated schemas<<Type1_Node>>
+***** 施工中 ...
+
+**** Code generation and dynamically typed languages<<Type1_Node>>
+***** 施工中 ...
+
+*** The Merits of Schemas<<Type1_Node>>
+**** 施工中 ...
+
+** Modes of Dataflow<<Type2_Node>>
+*** 施工中 ...
+
+*** Dataflow Through Databases<<Type2_Node>>
+**** 施工中 ...
+
+**** Different values written at different times<<Type2_Node>>
+***** 施工中 ...
+
+**** Archival storage<<Type2_Node>>
+***** 施工中 ...
+
+*** Dataflow Through Services: REST and RPC<<Type2_Node>>
+**** 施工中 ...
+
+**** Web services<<Type2_Node>>
+***** 施工中 ...
+
+**** The problems with remote procedure calls (RPCs)<<Type2_Node>>
+***** 施工中 ...
+
+**** Current directions for RPC<<Type2_Node>>
+***** 施工中 ...
+
+**** Data encoding and evolution for RPC<<Type2_Node>>
+***** 施工中 ...
+
+*** Message-Passing Dataflow<<Type2_Node>>
+**** 施工中 ...
+
+**** Message brokers<<Type2_Node>>
+***** 施工中 ...
+
+**** Distributed actor frameworks<<Type2_Node>>
+***** 施工中 ...
+
+@endwbs
