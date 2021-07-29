@@ -76,90 +76,147 @@ node {
 * DDIA Chapter.3 - Storage and Retrieval<<Type_Root>>
 
 ** Data Structures That Power Your Database<<Type1_Node>>
-*** 施工中 ...
+*** 透過 Index 結構儲存資料，提升未來查詢時的效率。
+*** 會增加額外的資料量保存 Index 結構需要的 metadata。
+*** 維護 Index 會增加寫入資料時的成本。
 
 *** Hash Indexes<<Type1_Node>>
-**** 施工中 ...
+**** 透過 dictionary(aka hash map or hash table) 實現。
+**** hash map 保存在 memory，raw data 保存在磁碟(append-only)。
+**** append-only 能夠安全的處理併發控制請求，與有序寫入磁碟，加快寫入速度。
+**** 承上，能夠避免系統崩潰時造成不特定資料位置損毀的問題。
+**** 定時將磁碟內的 raw data 進行分割(segmentataion) 與壓縮(compression)。
+**** 以二進制格式表示 raw data，優化效能。
+**** 定時儲存用來災難恢復時的 snapshot。
+**** 必須確保 memory 有足夠的空間儲存 hash map，以及對範圍查詢不友好。
 
 *** SSTables and LSM-Trees<<Type1_Node>>
-**** 施工中 ...
+**** Sorted String Table, 簡稱 SSTable。
+**** Base on Hash Indexes，會在背景不斷的依序合併壓縮過的資料。
+**** 使 hash map 可以用更少的 key 維護相同的資料量。
+**** 由於資料是有序的，可以將範圍內的資料在寫入時再次進行壓減少\n寫入時的 I/O 頻寬(bandwitch)。
 
 **** Constructing and maintaining SSTable<<Type1_Node>>
-***** 施工中 ...
+***** SSTable 在 memory 的前身: memtable。
+***** 承上，透過有序結構(e.g. Red-Black Tree) 維護，\n降低整理成 SSTable 的時間。
+***** 查詢順序: memtable, 1st SSTable, 2nd and so on。
+***** 需要維護僅在 memory 的 memtable(e.g. WAL)。
 
 **** Making an LSM-tree out of SSTable<<Type1_Node>>
-***** 施工中 ...
+***** Log Structured Merge Tree，簡稱 LSM-tree。
+***** 代表產品: LevelDB、RocksDB。
 
 **** Performance optimizations<<Type1_Node>>
-***** 施工中 ...
+***** 當無法在 memtable 命中索引時，會產生無法預期的 I/O 開銷。
+***** 透過 Bloom Filter 減少 I/O 開銷。
+***** 壓縮與合併的兩大策略: Size-Tiered、Leveling。
+***** Size-Tiered: 寫入成本低、讀取成本高。
+***** Leveling: 寫入成本高、讀取成本低。
 
 *** B-Trees<<Type1_Node>>
-**** 施工中 ...
+**** 經典結構，基本上 RDBs 標配，大多 NoSQLs 都有支援。
+**** 將資料按固定大小切割成一個單位，pages。
+**** 透過 pages 互相關聯成一棵 B-Tree。
+**** value 可能存在 child node 或 leaf node。
+**** 寫入操作會因為發生 page split 產生額外開銷。
+**** 參考指標: branching factor，表示一個 page 允許參考的 pages 最大上限。
+**** B-Tree 深度通常落在 3~4 層，減少 I/O 開銷。
+
 
 **** Make B-trees reliable<<Type1_Node>>
-***** 施工中 ...
+***** 透過 WAL 確保寫入操作失敗時能夠 rollback。
+***** 輕量鎖: latch 確保資料一致性。
 
 **** B-tree optimizations<<Type1_Node>>
-***** 施工中 ...
+***** LMDB 透過 copy-on-write 取代 WAL。
+***** 僅在 leaf node 保存實際資料，提高 branching factor 也縮減層數。
+***** leaf node 加入鄰近 pages reference，優化範圍查詢。
 
 *** Comparing B-Trees and LSM-Trees<<Type1_Node>>
-**** 施工中 ...
+**** LSM-Tree 因 append-only，具備超高寫入吞吐量。
+**** B-Tree 其本身結構特性，在讀取時能夠保證 one run。
+**** B-Tree 寫入開銷: WAL、Page、Split Pages。
 
 **** Advantages of LSM-trees<<Type1_Node>>
-***** 施工中 ...
+***** 寫入隱形開銷: 壓縮與合併 SSTables 造成的寫入放大。
+***** 有序寫入與 append-only 的特性可以有效利用空間。
+***** 透過合併策略盡可能保證 non-overlapping 與 one run。
 
 **** Downsides of LSM-trees<<Type1_Node>>
-***** 施工中 ...
+***** 隨著資料增加，背景處理與實際操作可能產生 I/O 競爭。
+***** 需要注意整併 SSTables 的速度是否跟著上資料成長。
+***** Transaction 成本較高。
 
 *** Other Indexing Structures<<Type1_Node>>
-**** 施工中 ...
 
 **** Storing values within the index<<Type1_Node>>
-***** 施工中 ...
+***** secondary indexes
+***** value 可以是 refer to Clustered index。
+***** 也可以保存在 heap file 上，例如 covering index。
 
 **** Multi-column indexes<<Type1_Node>>
-***** 施工中 ...
+***** 例如 concatenated index。
+***** 對組合順序相當敏感。
+***** 代表結構: R-Tree。
 
 **** Full-text search and fuzzy indexes<<Type1_Node>>
-***** 施工中 ...
+***** 適合模糊查詢。
+***** 代表結構: Segment Tree、Trie。
+***** 代表產品: Lucene、Elasticsearch。
 
 **** Keeping everything in memory<<Type1_Node>>
-***** 施工中 ...
+***** 適用於資料集較小時與資料快取。
+***** 透過 Battery-powered RAM、WAF、snapshot 等機制，\n將資料寫入磁碟保證災難恢復。
+***** 效能提升關鍵在於省去資料寫入磁碟時的編碼成本。
+***** 能實現更複雜的資料結構，例如 queue、set。
+***** 透過 Anti-caching 技術增加可用性。
 
 ** Transaction Processing or Analytics ?<<Type2_Node>>
-*** 施工中 ...
+*** Online Transaction Processing, OLTP: 典型業務操作。
+*** Online Analysis Processing, OLAP: 資料分析操作。
 
 *** Data Warehousing<<Type2_Node>>
-**** 施工中 ...
+**** 避免與 OLTP 密集的資料系統相互競爭資源。
+**** 整合大型企業中的所有產品資料。
+**** 通常是 read-only copies。
+**** 常見資料搬遷流程: Extract-Transform-Load, ETL。
 
 **** The divergence between OLTP databases and data warehouse<<Type2_Node>>
-***** 施工中 ...
+***** 好用的 SQL 分析工具: drill-down、slicing、dicing。
+***** 同時對 OLTP、OLAP 友好的產品: Microsoft SQL Server、\nSAP HANA。
+***** 近期誕生的開源產品: SQL-on-Hadoop。
+***** 關鍵字: Google's Dremel、Apache Hive、Spark SQL、\nCloudera Implala、Facebook Presto。
 
 *** Stars and Snowflakes: Schemas for Analytics<<Type2_Node>>
-**** 施工中 ...
+**** Warehouse 常用格式: Star schema。
+**** 最大張的關聯資料表: fact table。
+**** 所有的額外資料都透過 foreign key 關聯到 fact table。
 
 ** Column-Oriented Storage<<Type3_Node>>
-*** 施工中 ...
+*** 因為 fact table 的特性，不適合採用傳統的 Row-Oriented 方式儲存。
+*** Column-Oriented 優勢在於減少在查詢時所需的資料載入量。
 
 *** Column Compression<<Type3_Node>>
-**** 施工中 ...
-
-**** Column-oriented storage and column families<<Type3_Node>>
-***** 施工中 ...
+**** 使用 Bitmap 壓縮資料。
 
 **** Memory bandwitch and vectorized processing<<Type3_Node>>
-***** 施工中 ...
+***** 效能瓶頸之一: disk to memory。
+***** 效能瓶頸之二: memory to CPU Cache。
+***** 應用 vectorized processing 技術與 SIMD 技術。
 
 *** Sort Order in Column Storage<<Type3_Node>>
-**** 施工中 ...
+**** 指定頻繁出現在查詢規則的 Column 作為 1st sorted key，提升查詢效率。
+**** 減少 Bitmap 資料量大小。
 
 **** Several different sort orders<<Type3_Node>>
-***** 施工中 ...
+***** 對每份 Replica 使用不同的排序方式。
 
 *** Writing to Column-Oriented Storage<<Type3_Node>>
-**** 施工中 ...
+**** 使用 LSM-Tree，解決當發生寫入請求時的困難。
 
 *** Aggregation: Data Cubes and Materialized Views<<Type3_Node>>
-**** 施工中 ...
+**** Materialized View: 查詢結果的備份。
+**** RDBs 的 Virtual View: 便於查詢使用的捷徑(shortcut)。
+**** 每個 Data Cubes 只能對特定查詢進行個別優化。
 
 @endwbs
