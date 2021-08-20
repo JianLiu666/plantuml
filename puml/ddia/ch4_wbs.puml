@@ -76,81 +76,125 @@ node {
 * DDIA Chapter.4 - Encoding and Evolution<<Type_Root>>
 
 ** Formats for Encoding Data<<Type1_Node>>
-*** 施工中 ...
+*** In-memory 處理資料時透過不同的資料結構提高效率。\n(e.g. list, hash table, tree, etc.)
+*** 傳遞資料(e.g. 網路, 資料庫) 時透過 encoding formats\n提高效率。
 
 *** Language-Specific Formats<<Type1_Node>>
-**** 施工中 ...
+**** tied to a particular programming language。
+**** 方便性考量，通常不保證版本相容性。
+**** 不保證 encode/decode 效能。
 
 *** JSON, XML, and Binary Variants<<Type1_Node>>
-**** 施工中 ...
+**** human-readable, self-contained。
+**** 幾乎所有 apps/languages 都預設支援。
+**** 不同語言之間的對 datatype 定義不一定相同。
+**** 無法有效表示 binary string。
 
 **** Binary encoding<<Type1_Node>>
-***** 施工中 ...
+***** 建立在 JSON 之上的 binary encoding:\ne.g. MessagePack、BSON、etc.
+***** 更明確的 datatype，例如 integer 與 floating-point。
+***** 仍然是 self-contained format。
 
 *** Thrift and Protocol Buffers<<Type1_Node>>
-**** 施工中 ...
+**** 均有 encoded schema definition 與 code genereation tool。
+**** 均透過 field tag 描述 field(取代 field name)。
 
 **** Field tags and schema evolution<<Type1_Node>>
-***** 施工中 ...
+***** 對 field name 解耦。
+***** 向上相容:\n - 依序遞增 field tag 且不復用。\n - 根據 schema 決定是否跳過未給定的 field tags。\n - 只能刪除 optional marker fields。
+***** 向下相容:\n - 只能透過 optional 增加 fields。\n - 只能刪除 optional marker fields。
 
 **** Datatypes and schema evolution<<Type1_Node>>
-***** 施工中 ...
+***** int32 -> int64，再向上相容時可能會產生溢位。
+***** protobuf 的 repeat marker 可以同保證 multi-value 與 single-value。
 
 *** Avro<<Type1_Node>>
-**** 施工中 ...
+**** 為了解決 Hadoop 處理資料時的問題。
+**** Avro IDL for developers。
+**** JSON-like schema for machine-readable。
+**** binary data 不包含 fields 與 datatypes，透過 writer/reader schema。
 
 **** The writer's schema and the reader's schema<<Type1_Node>>
-***** 施工中 ...
+***** 省略 field tags 換來更有效的資料壓縮。
+***** using writer schema to encode data。
+***** reader schema 對照 writer schema 解析 binary data。
 
 **** Schema evolution rules<<Type1_Node>>
-***** 施工中 ...
+***** 透過 union 保證相容性。
+***** 向上相容:\n - new version of the schema as writer, and old version of schema as reader。\n - 只能刪除有給定預設值的 fields。
+***** 向下相容:\n - - new version of the schema as reader, and old version of schema as writer。\n - 增加 fields 時必須給定預設值。\n - 允許更換 field name, 與 datatype(只要是可以轉換的)。
 
 **** But what is the writer's schema<<Type1_Node>>
-***** 施工中 ...
+***** Large file with lots of records。
+***** Database with individually written records。
+***** Sending records over a network connection。
+***** wrier's schema 可以作為文件。
 
 **** Dynamically generated schemas<<Type1_Node>>
-***** 施工中 ...
+***** Avro 只需修改 schemas。
+***** Protobuf/Thrift 需要重新產生 encoding tool。
 
 **** Code generation and dynamically typed languages<<Type1_Node>>
-***** 施工中 ...
+***** Protobuf 在 statically typed language 可以將 binary data 轉成高效的資料結構。
+***** Avro 對 dynamically typed language 更加友善。
 
 *** The Merits of Schemas<<Type1_Node>>
-**** 施工中 ...
+**** JSON 可以提供嚴格的 regular expression, protobuf v3 and so on。
+**** binary encoding 可以提供更好的壓縮率。
+**** schema 即文件，可以提早發現相容性問題。
+**** 承上，在 statically typed language 還可以在編譯階段發現型態不一致問題。
 
 ** Modes of Dataflow<<Type2_Node>>
-*** 施工中 ...
 
 *** Dataflow Through Databases<<Type2_Node>>
-**** 施工中 ...
+**** 傳送一份資料給未來的自己，必須保證向下相容。
+**** rolling update 時需要保證向上相容，避免遺失 unknown fields。
 
 **** Different values written at different times<<Type2_Node>>
-***** 施工中 ...
+***** 每個 column value 的改動時間都不相同。
+***** migration 成本過高，簡易做法為填上 null。
 
 **** Archival storage<<Type2_Node>>
-***** 施工中 ...
+***** Since you're copying the data anyway, you might as well\nencode the copy of the data consistently.
 
 *** Dataflow Through Services: REST and RPC<<Type2_Node>>
-**** 施工中 ...
+**** 傳輸協定舉例：HTTP、URLs
+**** 編碼協定舉例：JSON
+**** 近似於 DB query，差異在可以更嚴謹的限制 client 的可操作性。
 
 **** Web services<<Type2_Node>>
-***** 施工中 ...
+***** 兩大主流：REST 與 SOAP。
+***** REST\n - 一種設計原則，稱為 RESTful API。\n - 簡單的資料格式與 URLs 描述功能。\n - 沿用 HTTP 機制。\n - 背後社群成熟，有相當優秀的 documentation tool(e.g. swagger)。
+***** SOAP\n - based on HTTP 但採用 XML protocol。\n - SOAP APIs -> WSDL。\n - 擁有 code generation tool 但不多元。
 
 **** The problems with remote procedure calls (RPCs)<<Type2_Node>>
-***** 施工中 ...
+***** 希望能夠讓跨服務溝通過程像是在本地調用函式一樣。
+***** 存在網路問題，無法準確判斷調用結果。
+***** 承上，因此也存在冪等性問題。
+***** large object structure 的資料壓縮成本與跨語言的\ndatatype 約束。
 
 **** Current directions for RPC<<Type2_Node>>
-***** 施工中 ...
+***** 當前主流：Thrift, Avro, gRPC(based on protobuf)。
+***** 成熟的 frameworks 可以提供跨服務溝通帶來的傳輸問題。
+***** RESTful API 因為方便性與社群成熟性來說，基本上是第三方串接時首選。
 
 **** Data encoding and evolution for RPC<<Type2_Node>>
-***** 施工中 ...
+***** 資料相容性的保證仍舊源於使用的 encoding format。
+***** schema version 可以作為識別方式。
+***** RESTful API 可以將 version 加入 URL path 內。
 
 *** Message-Passing Dataflow<<Type2_Node>>
-**** 施工中 ...
+**** Asynchronous message-passing system，services 之間透過中繼站 message broker 溝通。
+**** message passing from sender to recipient。
+**** 提高系統可靠性、實現服務溝通解耦、避免資料遺失。
+**** request/response 的真實性是最大硬傷。
 
 **** Message brokers<<Type2_Node>>
-***** 施工中 ...
+***** multi senders and recipients，關注相同 topic。
+***** 資料相容性的保證仍舊源於使用的 encoding format。
 
 **** Distributed actor frameworks<<Type2_Node>>
-***** 施工中 ...
+***** Actor Model：\n - 單執行緒處理併發邏輯。\n - actors 之間不共享資料，溝通屬於非同步且不保證成功。
+***** Distributed actor frameworks：\n - based on actor model and message broker。\n - 所有溝通都透過網路傳遞，保持一致性。
 
 @endwbs
